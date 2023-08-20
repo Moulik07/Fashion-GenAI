@@ -1,0 +1,1001 @@
+user_id,gender,age,age_group,body_type,region,past_purchase_history,browsing_data,accessory_type,season,footwear_type,brand,color,style,outfit_id
+1,Female,62,senior,Heavy,North,"['pant', 'shoe', 'shirt', 'hat']",ProductA,belt,Winter,flats,BrandB,Green,Formal,1
+2,Other,60,young,Heavy,West,"['jacket', 'pant', 'shirt', 'shoe', 'hat']",ProductC,bracelet,Autumn,heels,BrandA,Black,Casual,2
+3,Male,56,middle-aged,Slim,South,"['hat', 'jacket', 'shoe', 'pant']",ProductD,necklace,Autumn,sandals,BrandC,Blue,Sporty,3
+4,Female,36,middle-aged,Athletic,North,['hat'],ProductE,watch,Autumn,heels,BrandA,White,Formal,4
+5,Male,45,senior,Slim,West,"['shoe', 'shirt', 'jacket']",ProductE,bracelet,Summer,flats,BrandA,Blue,Sporty,5
+6,Female,45,middle-aged,Heavy,North,"['shoe', 'hat']",ProductE,necklace,Autumn,sandals,BrandA,Green,Sporty,6
+7,Male,66,middle-aged,Heavy,East,"['pant', 'shirt', 'jacket', 'shoe']",ProductB,sunglasses,Summer,sneakers,BrandB,Blue,Sporty,7
+8,Other,36,middle-aged,Heavy,North,"['shirt', 'hat']",ProductC,bracelet,Summer,heels,BrandC,Red,Sporty,8
+9,Other,67,young,Average,North,"['shirt', 'hat', 'shoe', 'jacket']",ProductA,bracelet,Winter,sneakers,BrandC,Green,Sporty,9
+10,Female,55,middle-aged,Slim,East,"['shirt', 'shoe', 'jacket']",ProductA,watch,Spring,heels,BrandA,White,Elegant,10
+11,Male,42,middle-aged,Slim,East,"['pant', 'shoe', 'jacket', 'shirt']",ProductA,belt,Autumn,sneakers,BrandD,White,Formal,11
+12,Male,28,young,Athletic,East,['hat'],ProductE,bracelet,Winter,flats,BrandA,White,Elegant,12
+13,Female,49,senior,Heavy,North,"['jacket', 'hat']",ProductD,necklace,Spring,sandals,BrandB,Red,Casual,13
+14,Male,52,senior,Average,West,"['pant', 'shoe', 'shirt', 'jacket', 'hat']",ProductE,watch,Summer,heels,BrandC,Black,Casual,14
+15,Other,29,senior,Average,South,"['shirt', 'hat']",ProductA,belt,Summer,heels,BrandD,Red,Casual,15
+16,Male,68,middle-aged,Slim,West,['hat'],ProductC,sunglasses,Spring,sneakers,BrandB,Blue,Casual,16
+17,Other,53,senior,Athletic,North,['jacket'],ProductB,bracelet,Winter,heels,BrandB,White,Formal,17
+18,Male,70,young,Slim,East,"['shoe', 'shirt', 'pant']",ProductE,sunglasses,Winter,heels,BrandB,Green,Formal,18
+19,Male,29,middle-aged,Heavy,East,"['shoe', 'hat', 'jacket', 'pant']",ProductA,belt,Summer,sneakers,BrandD,Blue,Casual,19
+20,Male,60,middle-aged,Average,North,"['shirt', 'hat', 'jacket']",ProductC,belt,Autumn,sandals,BrandB,Green,Formal,20
+21,Female,30,young,Slim,South,"['hat', 'pant', 'shoe']",ProductB,watch,Autumn,sandals,BrandB,White,Casual,21
+22,Male,29,senior,Slim,North,"['shoe', 'pant', 'hat', 'jacket', 'shirt']",ProductC,belt,Spring,flats,BrandB,Blue,Elegant,22
+23,Other,24,middle-aged,Average,West,"['jacket', 'shirt', 'shoe', 'hat', 'pant']",ProductA,belt,Summer,sneakers,BrandD,White,Casual,23
+24,Female,47,middle-aged,Average,South,"['pant', 'shoe', 'hat', 'jacket', 'shirt']",ProductB,watch,Autumn,sneakers,BrandC,Red,Casual,24
+25,Other,54,senior,Average,East,"['pant', 'hat', 'shirt', 'shoe', 'jacket']",ProductD,belt,Winter,sandals,BrandD,Blue,Sporty,25
+26,Male,25,senior,Slim,East,"['shoe', 'jacket', 'pant', 'shirt']",ProductE,bracelet,Summer,flats,BrandB,Red,Formal,26
+27,Other,53,senior,Average,South,"['shoe', 'jacket', 'pant', 'hat', 'shirt']",ProductE,sunglasses,Summer,sandals,BrandD,Green,Casual,27
+28,Male,42,young,Athletic,North,"['hat', 'shirt', 'pant', 'shoe']",ProductA,watch,Summer,sneakers,BrandD,Green,Formal,28
+29,Male,41,senior,Athletic,South,"['shoe', 'hat', 'shirt']",ProductC,sunglasses,Summer,flats,BrandB,Green,Sporty,29
+30,Male,24,middle-aged,Athletic,West,"['jacket', 'pant', 'shirt', 'shoe', 'hat']",ProductB,watch,Winter,boots,BrandD,Red,Elegant,30
+31,Male,66,young,Athletic,West,"['jacket', 'pant', 'shirt', 'hat', 'shoe']",ProductA,belt,Autumn,sneakers,BrandC,Red,Elegant,31
+32,Male,35,senior,Average,East,"['shirt', 'jacket', 'hat', 'shoe', 'pant']",ProductC,necklace,Spring,heels,BrandB,Green,Formal,32
+33,Female,59,middle-aged,Average,South,"['shirt', 'hat', 'shoe']",ProductB,sunglasses,Spring,sandals,BrandA,Red,Sporty,33
+34,Other,41,middle-aged,Heavy,South,"['hat', 'shoe']",ProductB,belt,Winter,sneakers,BrandD,Green,Elegant,34
+35,Male,33,middle-aged,Heavy,East,['shoe'],ProductC,necklace,Summer,sandals,BrandA,Green,Formal,35
+36,Male,34,senior,Average,East,"['shirt', 'hat', 'jacket', 'pant']",ProductE,watch,Summer,flats,BrandC,Blue,Sporty,36
+37,Male,32,senior,Athletic,East,"['pant', 'hat', 'shoe', 'jacket']",ProductA,necklace,Summer,heels,BrandA,Blue,Elegant,37
+38,Male,42,middle-aged,Average,East,"['hat', 'pant', 'shirt', 'jacket', 'shoe']",ProductC,belt,Winter,sneakers,BrandA,Red,Formal,38
+39,Male,50,senior,Slim,East,['hat'],ProductE,sunglasses,Winter,sneakers,BrandB,White,Elegant,39
+40,Male,24,middle-aged,Average,North,"['shoe', 'hat', 'shirt', 'jacket', 'pant']",ProductC,sunglasses,Autumn,heels,BrandC,Red,Elegant,40
+41,Male,35,middle-aged,Slim,West,['shirt'],ProductB,belt,Spring,sandals,BrandB,Black,Formal,41
+42,Other,27,young,Slim,East,"['pant', 'hat']",ProductC,sunglasses,Summer,flats,BrandB,Blue,Elegant,42
+43,Other,21,young,Heavy,South,"['shoe', 'pant']",ProductD,watch,Winter,sandals,BrandD,Red,Casual,43
+44,Other,43,middle-aged,Athletic,East,"['shirt', 'pant', 'jacket']",ProductB,necklace,Winter,sandals,BrandA,Black,Casual,44
+45,Female,60,senior,Heavy,North,"['jacket', 'shoe', 'pant', 'shirt']",ProductC,belt,Summer,flats,BrandB,Green,Casual,45
+46,Female,33,senior,Average,West,['shoe'],ProductB,watch,Spring,sandals,BrandD,Green,Casual,46
+47,Other,48,young,Heavy,South,"['pant', 'shirt', 'hat']",ProductB,necklace,Summer,sandals,BrandA,Green,Elegant,47
+48,Female,28,senior,Athletic,North,"['shirt', 'shoe', 'hat']",ProductE,bracelet,Spring,sneakers,BrandA,White,Sporty,48
+49,Other,40,middle-aged,Average,South,"['shoe', 'shirt']",ProductE,belt,Autumn,boots,BrandD,Black,Elegant,49
+50,Male,35,young,Slim,North,"['jacket', 'pant']",ProductA,necklace,Winter,sandals,BrandA,Green,Elegant,50
+51,Male,51,senior,Heavy,North,"['hat', 'pant']",ProductC,belt,Summer,sneakers,BrandC,Black,Casual,51
+52,Female,56,middle-aged,Athletic,North,"['pant', 'shoe', 'jacket']",ProductB,sunglasses,Autumn,flats,BrandA,Blue,Sporty,52
+53,Male,36,senior,Average,West,"['shirt', 'jacket', 'shoe', 'pant', 'hat']",ProductE,sunglasses,Winter,heels,BrandC,Red,Formal,53
+54,Other,26,senior,Slim,South,['shirt'],ProductC,necklace,Summer,heels,BrandD,White,Formal,54
+55,Female,66,middle-aged,Heavy,West,"['shirt', 'jacket', 'hat', 'shoe', 'pant']",ProductC,necklace,Winter,sneakers,BrandD,White,Sporty,55
+56,Other,21,young,Athletic,East,"['shoe', 'hat', 'jacket']",ProductE,bracelet,Summer,sandals,BrandA,Black,Formal,56
+57,Male,50,senior,Average,East,"['pant', 'hat']",ProductA,belt,Autumn,flats,BrandA,Red,Casual,57
+58,Female,28,middle-aged,Average,East,"['shoe', 'pant', 'hat', 'shirt']",ProductE,belt,Summer,sandals,BrandA,Black,Casual,58
+59,Female,23,middle-aged,Heavy,East,"['hat', 'jacket', 'shirt']",ProductE,bracelet,Spring,sneakers,BrandC,Green,Sporty,59
+60,Male,18,young,Slim,South,"['shirt', 'shoe', 'hat', 'jacket', 'pant']",ProductD,necklace,Autumn,sneakers,BrandA,White,Elegant,60
+61,Other,26,senior,Slim,North,"['shirt', 'shoe', 'pant', 'jacket', 'hat']",ProductB,belt,Summer,heels,BrandA,Green,Formal,61
+62,Other,22,middle-aged,Athletic,West,['hat'],ProductD,belt,Winter,sneakers,BrandB,Blue,Formal,62
+63,Other,17,young,Slim,South,"['shirt', 'shoe', 'hat', 'jacket', 'pant']",ProductE,watch,Spring,boots,BrandD,Blue,Sporty,63
+64,Male,26,senior,Athletic,West,"['shirt', 'jacket']",ProductB,watch,Summer,sneakers,BrandD,Red,Sporty,64
+65,Other,61,middle-aged,Slim,South,"['jacket', 'hat', 'pant', 'shirt']",ProductD,watch,Spring,flats,BrandD,Green,Formal,65
+66,Other,47,young,Heavy,North,"['shoe', 'hat', 'shirt', 'jacket']",ProductA,sunglasses,Summer,flats,BrandD,Red,Sporty,66
+67,Female,57,middle-aged,Athletic,West,"['shirt', 'pant', 'jacket']",ProductA,belt,Summer,boots,BrandC,Black,Elegant,67
+68,Male,53,senior,Athletic,West,"['pant', 'hat', 'jacket']",ProductD,belt,Summer,sandals,BrandC,Black,Sporty,68
+69,Female,49,young,Heavy,North,"['shoe', 'hat']",ProductB,necklace,Spring,sandals,BrandB,Red,Sporty,69
+70,Other,39,senior,Average,West,"['hat', 'shirt', 'shoe', 'pant']",ProductE,watch,Spring,sneakers,BrandB,Black,Casual,70
+71,Other,53,senior,Average,West,"['jacket', 'shirt', 'pant', 'hat']",ProductA,sunglasses,Spring,heels,BrandB,White,Elegant,71
+72,Female,36,senior,Average,West,"['shirt', 'jacket', 'pant']",ProductE,watch,Spring,sandals,BrandD,White,Elegant,72
+73,Other,24,senior,Slim,West,"['pant', 'hat', 'shirt', 'jacket']",ProductA,watch,Autumn,flats,BrandB,Green,Casual,73
+74,Male,44,senior,Average,South,['jacket'],ProductC,sunglasses,Winter,sneakers,BrandD,White,Elegant,74
+75,Female,59,senior,Athletic,West,"['pant', 'jacket', 'hat', 'shoe', 'shirt']",ProductB,belt,Winter,boots,BrandA,Red,Sporty,75
+76,Other,67,senior,Slim,South,"['hat', 'shirt', 'pant']",ProductE,necklace,Summer,flats,BrandC,Blue,Elegant,76
+77,Male,15,young,Average,North,"['shirt', 'jacket', 'pant']",ProductC,belt,Summer,heels,BrandD,Black,Formal,77
+78,Female,56,middle-aged,Average,West,"['pant', 'hat', 'shirt']",ProductC,belt,Spring,sneakers,BrandC,White,Sporty,78
+79,Male,33,middle-aged,Slim,East,"['jacket', 'shoe', 'pant']",ProductC,bracelet,Winter,heels,BrandD,Blue,Casual,79
+80,Male,57,middle-aged,Athletic,South,"['shoe', 'shirt', 'pant']",ProductA,necklace,Autumn,sneakers,BrandA,White,Elegant,80
+81,Male,20,middle-aged,Average,East,"['jacket', 'pant', 'hat']",ProductD,watch,Spring,flats,BrandA,Red,Sporty,81
+82,Female,54,middle-aged,Slim,West,"['hat', 'jacket', 'shoe', 'shirt']",ProductB,belt,Autumn,sneakers,BrandC,Black,Elegant,82
+83,Male,27,young,Heavy,North,"['shoe', 'pant']",ProductA,necklace,Winter,sneakers,BrandD,Blue,Elegant,83
+84,Female,43,young,Heavy,East,"['shirt', 'shoe', 'jacket']",ProductE,necklace,Autumn,flats,BrandB,Black,Casual,84
+85,Male,28,senior,Heavy,West,['shirt'],ProductE,sunglasses,Spring,heels,BrandA,Red,Casual,85
+86,Male,54,middle-aged,Athletic,South,"['jacket', 'hat', 'pant']",ProductD,sunglasses,Summer,boots,BrandB,Blue,Elegant,86
+87,Other,18,middle-aged,Athletic,West,"['shoe', 'pant']",ProductC,necklace,Summer,sneakers,BrandD,Green,Sporty,87
+88,Female,57,senior,Heavy,West,['jacket'],ProductA,sunglasses,Winter,sandals,BrandA,Blue,Formal,88
+89,Male,64,young,Slim,North,"['jacket', 'hat', 'shirt', 'pant', 'shoe']",ProductE,watch,Autumn,boots,BrandB,Black,Casual,89
+90,Male,23,senior,Average,West,"['shoe', 'hat', 'jacket', 'shirt', 'pant']",ProductA,bracelet,Summer,sneakers,BrandA,Blue,Sporty,90
+91,Female,43,middle-aged,Athletic,East,['shoe'],ProductD,bracelet,Spring,heels,BrandC,Blue,Sporty,91
+92,Other,46,senior,Average,West,"['shirt', 'jacket', 'hat']",ProductA,necklace,Autumn,sneakers,BrandA,Black,Casual,92
+93,Other,32,young,Average,North,"['pant', 'shoe', 'jacket', 'shirt']",ProductE,bracelet,Spring,sandals,BrandB,Black,Casual,93
+94,Female,59,senior,Average,North,"['shirt', 'jacket', 'hat', 'pant']",ProductA,watch,Winter,sneakers,BrandB,Blue,Casual,94
+95,Female,62,young,Slim,South,"['shoe', 'hat', 'pant', 'shirt']",ProductB,belt,Autumn,sandals,BrandB,Black,Elegant,95
+96,Male,60,young,Slim,East,['hat'],ProductE,bracelet,Summer,sneakers,BrandB,Red,Elegant,96
+97,Male,37,young,Athletic,North,"['shoe', 'pant', 'shirt']",ProductB,necklace,Winter,sandals,BrandA,Blue,Casual,97
+98,Male,67,senior,Heavy,East,"['hat', 'shoe', 'shirt', 'pant']",ProductC,belt,Summer,sneakers,BrandA,Blue,Casual,98
+99,Female,61,middle-aged,Average,South,"['shoe', 'shirt']",ProductC,necklace,Summer,boots,BrandB,Red,Elegant,99
+100,Male,53,middle-aged,Heavy,West,"['pant', 'shoe', 'hat', 'jacket']",ProductC,bracelet,Summer,sandals,BrandC,Blue,Sporty,100
+101,Female,29,middle-aged,Heavy,East,"['shirt', 'pant', 'hat', 'jacket']",ProductC,sunglasses,Spring,flats,BrandB,Green,Elegant,101
+102,Other,27,middle-aged,Athletic,North,"['shirt', 'jacket', 'shoe', 'hat']",ProductB,bracelet,Autumn,heels,BrandD,White,Elegant,102
+103,Female,19,young,Athletic,East,"['hat', 'shoe']",ProductC,sunglasses,Winter,flats,BrandA,Red,Formal,103
+104,Female,43,senior,Athletic,West,"['shirt', 'jacket']",ProductA,bracelet,Winter,flats,BrandD,Red,Formal,104
+105,Other,54,middle-aged,Athletic,East,"['pant', 'jacket', 'hat', 'shoe', 'shirt']",ProductC,watch,Autumn,heels,BrandA,White,Elegant,105
+106,Male,54,senior,Slim,North,"['shirt', 'pant', 'shoe', 'jacket']",ProductE,watch,Autumn,boots,BrandA,Black,Formal,106
+107,Female,66,senior,Average,North,['pant'],ProductA,watch,Spring,sneakers,BrandA,White,Sporty,107
+108,Female,45,senior,Slim,South,"['pant', 'hat']",ProductD,sunglasses,Winter,flats,BrandC,White,Formal,108
+109,Other,68,middle-aged,Heavy,West,['shirt'],ProductA,watch,Autumn,heels,BrandA,White,Casual,109
+110,Male,19,senior,Slim,North,"['hat', 'pant', 'shoe']",ProductD,sunglasses,Autumn,sandals,BrandB,Red,Casual,110
+111,Female,38,middle-aged,Athletic,West,['shirt'],ProductC,sunglasses,Winter,sneakers,BrandB,Blue,Formal,111
+112,Male,65,senior,Heavy,North,"['jacket', 'pant']",ProductD,necklace,Autumn,flats,BrandC,Blue,Elegant,112
+113,Other,41,senior,Heavy,West,"['hat', 'shirt', 'pant', 'shoe']",ProductC,necklace,Autumn,boots,BrandB,Blue,Sporty,113
+114,Female,32,young,Average,East,['jacket'],ProductB,bracelet,Autumn,boots,BrandD,Blue,Casual,114
+115,Male,25,middle-aged,Heavy,West,"['shoe', 'pant', 'hat', 'shirt', 'jacket']",ProductE,watch,Summer,sandals,BrandA,Red,Elegant,115
+116,Male,63,senior,Slim,West,"['pant', 'jacket', 'shoe', 'shirt', 'hat']",ProductD,belt,Spring,sandals,BrandA,Blue,Formal,116
+117,Other,29,middle-aged,Athletic,North,['shirt'],ProductC,belt,Spring,sandals,BrandD,Black,Sporty,117
+118,Male,51,senior,Athletic,West,"['shirt', 'shoe', 'pant']",ProductC,bracelet,Autumn,heels,BrandB,Black,Sporty,118
+119,Male,45,middle-aged,Heavy,East,"['jacket', 'shoe', 'shirt', 'hat']",ProductE,bracelet,Spring,boots,BrandA,Blue,Elegant,119
+120,Male,65,middle-aged,Athletic,East,['shoe'],ProductB,bracelet,Summer,flats,BrandB,Black,Formal,120
+121,Female,47,middle-aged,Athletic,North,"['shoe', 'shirt', 'hat']",ProductE,belt,Summer,sneakers,BrandC,Red,Formal,121
+122,Female,52,senior,Heavy,North,"['pant', 'shoe', 'hat']",ProductE,necklace,Autumn,heels,BrandC,Red,Casual,122
+123,Female,53,senior,Average,East,"['hat', 'shirt', 'pant']",ProductC,sunglasses,Autumn,sandals,BrandB,White,Formal,123
+124,Female,45,senior,Athletic,South,"['hat', 'pant']",ProductA,necklace,Spring,flats,BrandA,Black,Elegant,124
+125,Male,45,middle-aged,Heavy,South,"['pant', 'shirt', 'jacket']",ProductD,necklace,Summer,heels,BrandD,Blue,Casual,125
+126,Other,54,senior,Slim,South,['shoe'],ProductA,watch,Winter,boots,BrandB,Black,Formal,126
+127,Other,20,middle-aged,Average,North,"['shirt', 'pant', 'hat', 'shoe']",ProductA,bracelet,Spring,sneakers,BrandA,Black,Casual,127
+128,Other,57,young,Athletic,North,"['pant', 'hat']",ProductE,bracelet,Winter,boots,BrandD,Black,Formal,128
+129,Other,23,senior,Athletic,South,"['hat', 'jacket', 'shoe', 'pant']",ProductC,belt,Autumn,flats,BrandA,Green,Sporty,129
+130,Male,37,senior,Athletic,East,"['hat', 'shirt', 'shoe', 'jacket']",ProductD,watch,Spring,sneakers,BrandD,White,Sporty,130
+131,Male,29,middle-aged,Average,East,"['shirt', 'shoe', 'jacket', 'pant']",ProductD,sunglasses,Spring,heels,BrandA,Black,Formal,131
+132,Other,61,middle-aged,Heavy,West,['jacket'],ProductB,necklace,Summer,sandals,BrandB,Black,Elegant,132
+133,Female,25,middle-aged,Average,South,"['hat', 'jacket']",ProductE,necklace,Autumn,heels,BrandC,Blue,Formal,133
+134,Other,27,middle-aged,Average,West,"['shirt', 'hat']",ProductA,bracelet,Summer,flats,BrandC,White,Formal,134
+135,Male,55,senior,Athletic,North,"['hat', 'jacket']",ProductA,watch,Spring,sneakers,BrandB,Red,Formal,135
+136,Other,19,young,Average,West,"['shirt', 'shoe']",ProductB,necklace,Winter,sneakers,BrandB,Blue,Elegant,136
+137,Male,21,young,Athletic,East,"['shoe', 'shirt', 'jacket', 'pant']",ProductA,bracelet,Winter,flats,BrandA,Black,Casual,137
+138,Other,34,middle-aged,Heavy,West,"['pant', 'shoe', 'jacket', 'shirt', 'hat']",ProductD,sunglasses,Autumn,flats,BrandD,White,Sporty,138
+139,Female,29,middle-aged,Athletic,East,"['shirt', 'shoe', 'jacket', 'hat', 'pant']",ProductA,sunglasses,Autumn,boots,BrandB,White,Elegant,139
+140,Male,47,senior,Athletic,East,"['shoe', 'shirt', 'jacket']",ProductC,sunglasses,Autumn,boots,BrandD,Blue,Casual,140
+141,Male,29,middle-aged,Average,East,['pant'],ProductD,belt,Summer,boots,BrandD,Green,Casual,141
+142,Other,38,middle-aged,Average,North,"['pant', 'shirt', 'hat']",ProductE,watch,Autumn,heels,BrandB,White,Elegant,142
+143,Other,43,young,Slim,South,"['hat', 'pant', 'jacket']",ProductA,sunglasses,Spring,sandals,BrandD,White,Elegant,143
+144,Male,59,senior,Average,North,"['jacket', 'shirt', 'pant']",ProductD,necklace,Winter,flats,BrandC,Blue,Formal,144
+145,Male,15,middle-aged,Heavy,West,"['jacket', 'shirt']",ProductD,sunglasses,Autumn,flats,BrandB,Blue,Formal,145
+146,Female,65,senior,Athletic,West,['pant'],ProductD,necklace,Summer,sandals,BrandA,White,Elegant,146
+147,Other,64,middle-aged,Average,West,['shoe'],ProductE,necklace,Summer,flats,BrandB,Red,Casual,147
+148,Male,43,middle-aged,Heavy,East,"['shoe', 'shirt', 'pant']",ProductA,bracelet,Autumn,flats,BrandD,Green,Elegant,148
+149,Female,38,senior,Slim,North,"['shirt', 'jacket', 'shoe', 'pant', 'hat']",ProductA,watch,Summer,boots,BrandD,Black,Casual,149
+150,Male,33,senior,Slim,West,"['hat', 'shoe']",ProductA,bracelet,Winter,sneakers,BrandC,Blue,Sporty,150
+151,Other,30,middle-aged,Slim,East,"['shirt', 'jacket', 'shoe']",ProductC,watch,Summer,sneakers,BrandB,Black,Elegant,151
+152,Other,58,senior,Athletic,North,"['hat', 'pant', 'jacket', 'shirt']",ProductE,watch,Winter,heels,BrandB,White,Casual,152
+153,Female,35,middle-aged,Athletic,South,"['hat', 'shirt', 'pant', 'shoe', 'jacket']",ProductB,necklace,Spring,flats,BrandA,Blue,Formal,153
+154,Female,53,senior,Athletic,North,"['pant', 'shirt', 'shoe', 'jacket']",ProductA,necklace,Spring,boots,BrandA,Red,Formal,154
+155,Female,47,middle-aged,Athletic,West,"['shirt', 'shoe', 'jacket', 'pant']",ProductA,bracelet,Autumn,sneakers,BrandA,Red,Formal,155
+156,Female,46,middle-aged,Heavy,South,"['hat', 'pant', 'shoe', 'jacket', 'shirt']",ProductB,watch,Winter,sandals,BrandA,Green,Sporty,156
+157,Female,23,middle-aged,Athletic,West,"['jacket', 'pant', 'shirt', 'hat']",ProductC,bracelet,Winter,boots,BrandD,White,Formal,157
+158,Female,70,middle-aged,Average,South,['shoe'],ProductD,sunglasses,Spring,sandals,BrandA,Blue,Casual,158
+159,Male,20,middle-aged,Slim,South,"['pant', 'jacket', 'hat', 'shirt']",ProductD,necklace,Autumn,flats,BrandB,White,Casual,159
+160,Other,21,middle-aged,Heavy,East,"['shirt', 'pant']",ProductB,sunglasses,Summer,sandals,BrandA,Blue,Formal,160
+161,Other,61,senior,Average,South,"['pant', 'shoe', 'jacket']",ProductA,belt,Summer,boots,BrandD,White,Casual,161
+162,Female,53,senior,Slim,East,"['hat', 'pant', 'jacket', 'shoe', 'shirt']",ProductC,watch,Spring,sneakers,BrandB,Blue,Sporty,162
+163,Male,32,senior,Athletic,North,"['hat', 'shirt', 'jacket', 'pant']",ProductD,bracelet,Autumn,flats,BrandB,Green,Casual,163
+164,Male,41,middle-aged,Athletic,West,"['pant', 'shoe', 'shirt', 'jacket', 'hat']",ProductC,watch,Winter,sandals,BrandA,Green,Sporty,164
+165,Female,33,middle-aged,Heavy,South,"['jacket', 'pant', 'hat', 'shoe', 'shirt']",ProductE,watch,Winter,sneakers,BrandC,Red,Elegant,165
+166,Male,27,young,Athletic,North,"['shirt', 'jacket']",ProductC,sunglasses,Summer,boots,BrandB,Green,Sporty,166
+167,Male,36,middle-aged,Heavy,South,"['jacket', 'pant', 'shirt', 'hat', 'shoe']",ProductA,sunglasses,Summer,sneakers,BrandC,White,Formal,167
+168,Female,43,senior,Average,North,['shoe'],ProductA,watch,Winter,heels,BrandB,Red,Formal,168
+169,Other,45,middle-aged,Heavy,South,['pant'],ProductC,bracelet,Summer,flats,BrandB,White,Casual,169
+170,Male,61,senior,Athletic,East,"['hat', 'shoe']",ProductA,bracelet,Summer,heels,BrandA,Red,Sporty,170
+171,Female,63,middle-aged,Average,South,"['hat', 'pant', 'jacket']",ProductB,watch,Summer,boots,BrandD,Blue,Elegant,171
+172,Female,42,middle-aged,Slim,West,"['shoe', 'shirt', 'pant', 'hat']",ProductE,sunglasses,Summer,flats,BrandD,Black,Formal,172
+173,Female,20,young,Average,West,"['pant', 'jacket', 'shirt']",ProductD,watch,Autumn,flats,BrandA,White,Sporty,173
+174,Male,43,middle-aged,Slim,East,"['shirt', 'shoe']",ProductB,necklace,Autumn,sneakers,BrandB,White,Elegant,174
+175,Female,28,young,Heavy,West,"['hat', 'shirt']",ProductE,bracelet,Winter,sandals,BrandB,Black,Casual,175
+176,Female,41,senior,Heavy,East,"['jacket', 'shirt']",ProductE,belt,Spring,sandals,BrandB,White,Formal,176
+177,Female,59,young,Slim,South,"['jacket', 'pant', 'shirt']",ProductA,necklace,Autumn,heels,BrandB,Black,Casual,177
+178,Female,57,middle-aged,Average,South,['shirt'],ProductA,necklace,Spring,sandals,BrandA,Black,Sporty,178
+179,Male,47,young,Athletic,East,"['shirt', 'shoe', 'hat', 'pant']",ProductA,necklace,Winter,flats,BrandC,Black,Formal,179
+180,Other,55,senior,Heavy,North,"['shirt', 'pant', 'shoe', 'jacket']",ProductD,necklace,Spring,sneakers,BrandD,Blue,Formal,180
+181,Female,52,senior,Slim,East,['hat'],ProductD,bracelet,Winter,flats,BrandA,Red,Casual,181
+182,Female,39,senior,Athletic,South,"['jacket', 'pant']",ProductA,sunglasses,Winter,boots,BrandA,Green,Casual,182
+183,Male,27,middle-aged,Athletic,South,"['pant', 'shoe', 'hat', 'shirt']",ProductC,necklace,Summer,sandals,BrandD,Green,Formal,183
+184,Other,69,senior,Average,South,"['shoe', 'hat', 'shirt', 'pant', 'jacket']",ProductC,necklace,Spring,sandals,BrandC,Black,Formal,184
+185,Female,69,middle-aged,Heavy,West,"['jacket', 'hat', 'shoe', 'pant', 'shirt']",ProductB,sunglasses,Autumn,boots,BrandB,Black,Elegant,185
+186,Other,34,young,Heavy,South,['pant'],ProductA,watch,Summer,sneakers,BrandA,Blue,Formal,186
+187,Male,16,senior,Heavy,East,"['hat', 'pant', 'shirt', 'shoe']",ProductE,belt,Summer,boots,BrandD,Green,Elegant,187
+188,Other,49,young,Average,West,['jacket'],ProductA,watch,Summer,boots,BrandC,Black,Elegant,188
+189,Female,52,middle-aged,Athletic,West,['hat'],ProductA,bracelet,Autumn,heels,BrandC,Blue,Formal,189
+190,Male,20,senior,Slim,West,['shirt'],ProductD,watch,Autumn,sneakers,BrandB,Red,Elegant,190
+191,Other,65,senior,Slim,North,"['pant', 'hat', 'shirt']",ProductD,sunglasses,Summer,heels,BrandB,White,Elegant,191
+192,Other,16,middle-aged,Heavy,North,"['jacket', 'pant', 'hat']",ProductE,bracelet,Summer,sneakers,BrandB,Green,Formal,192
+193,Male,31,senior,Average,North,['hat'],ProductC,sunglasses,Winter,flats,BrandA,Black,Casual,193
+194,Female,35,middle-aged,Average,North,"['shoe', 'hat', 'pant']",ProductE,belt,Summer,heels,BrandC,Red,Formal,194
+195,Other,24,senior,Average,East,"['jacket', 'pant', 'shirt']",ProductB,sunglasses,Spring,flats,BrandD,Red,Formal,195
+196,Female,47,middle-aged,Athletic,East,['shirt'],ProductE,watch,Spring,flats,BrandB,Blue,Sporty,196
+197,Female,38,senior,Slim,South,"['hat', 'shoe', 'pant', 'shirt']",ProductC,watch,Summer,sandals,BrandC,Green,Casual,197
+198,Other,41,middle-aged,Heavy,East,"['hat', 'shoe', 'shirt', 'jacket']",ProductC,belt,Winter,sneakers,BrandC,Red,Formal,198
+199,Male,51,middle-aged,Slim,East,"['hat', 'shoe', 'pant', 'jacket', 'shirt']",ProductD,watch,Winter,boots,BrandC,Black,Elegant,199
+200,Other,68,senior,Heavy,South,"['hat', 'jacket', 'pant']",ProductC,bracelet,Winter,heels,BrandC,Green,Sporty,200
+201,Male,23,senior,Athletic,West,['pant'],ProductD,bracelet,Spring,heels,BrandC,Green,Elegant,201
+202,Female,50,young,Slim,West,['pant'],ProductE,necklace,Autumn,boots,BrandD,Black,Elegant,202
+203,Female,31,senior,Slim,West,['shoe'],ProductC,watch,Spring,boots,BrandA,Green,Elegant,203
+204,Male,37,middle-aged,Average,South,"['hat', 'shoe', 'shirt', 'pant']",ProductB,necklace,Spring,flats,BrandC,Black,Sporty,204
+205,Male,46,middle-aged,Slim,North,"['hat', 'shoe']",ProductC,sunglasses,Winter,sandals,BrandB,White,Sporty,205
+206,Male,17,senior,Average,West,"['pant', 'shoe', 'shirt']",ProductC,bracelet,Autumn,sneakers,BrandD,Blue,Elegant,206
+207,Female,26,young,Average,South,"['hat', 'shirt', 'pant', 'jacket']",ProductE,bracelet,Winter,heels,BrandD,White,Formal,207
+208,Male,37,middle-aged,Heavy,South,"['jacket', 'shoe', 'hat', 'shirt', 'pant']",ProductD,watch,Winter,boots,BrandD,Blue,Elegant,208
+209,Male,47,senior,Average,South,"['pant', 'shirt']",ProductD,belt,Spring,sneakers,BrandB,Red,Sporty,209
+210,Other,56,middle-aged,Slim,North,"['jacket', 'shoe', 'pant', 'shirt', 'hat']",ProductA,necklace,Summer,flats,BrandA,Green,Formal,210
+211,Male,16,senior,Slim,East,"['pant', 'shoe', 'jacket']",ProductB,necklace,Winter,sneakers,BrandB,Blue,Elegant,211
+212,Other,58,senior,Heavy,North,"['hat', 'jacket', 'shoe', 'shirt', 'pant']",ProductA,sunglasses,Spring,sneakers,BrandC,Black,Sporty,212
+213,Female,19,senior,Slim,South,"['shoe', 'pant']",ProductE,sunglasses,Summer,sneakers,BrandA,Blue,Casual,213
+214,Female,69,middle-aged,Average,West,"['shoe', 'jacket']",ProductD,belt,Summer,flats,BrandB,Blue,Formal,214
+215,Female,67,young,Heavy,East,"['jacket', 'shoe']",ProductE,bracelet,Summer,sneakers,BrandC,Black,Sporty,215
+216,Male,48,senior,Slim,South,"['jacket', 'shirt']",ProductB,watch,Summer,heels,BrandD,Black,Elegant,216
+217,Female,66,middle-aged,Slim,East,"['jacket', 'pant']",ProductA,necklace,Winter,sneakers,BrandD,White,Elegant,217
+218,Other,44,young,Heavy,East,"['pant', 'shirt', 'jacket']",ProductE,bracelet,Autumn,flats,BrandB,White,Formal,218
+219,Female,39,middle-aged,Average,East,"['hat', 'pant', 'shoe']",ProductB,belt,Summer,sneakers,BrandA,Green,Sporty,219
+220,Female,29,middle-aged,Slim,North,"['jacket', 'pant']",ProductB,bracelet,Summer,boots,BrandD,White,Formal,220
+221,Female,52,senior,Average,North,"['jacket', 'shoe']",ProductC,watch,Autumn,sneakers,BrandC,Red,Elegant,221
+222,Other,53,middle-aged,Athletic,North,"['pant', 'shirt', 'hat', 'shoe', 'jacket']",ProductE,watch,Autumn,heels,BrandA,White,Elegant,222
+223,Female,44,senior,Slim,North,"['shoe', 'pant', 'shirt', 'hat', 'jacket']",ProductE,bracelet,Spring,heels,BrandC,White,Elegant,223
+224,Other,45,middle-aged,Average,West,"['shoe', 'hat']",ProductE,necklace,Spring,flats,BrandA,Black,Elegant,224
+225,Male,46,middle-aged,Athletic,West,"['hat', 'jacket', 'shirt']",ProductD,sunglasses,Summer,flats,BrandB,Red,Sporty,225
+226,Male,34,senior,Average,East,"['shirt', 'shoe', 'pant', 'jacket']",ProductB,belt,Summer,boots,BrandD,White,Elegant,226
+227,Other,25,young,Average,East,"['pant', 'hat', 'shirt', 'shoe', 'jacket']",ProductC,necklace,Spring,flats,BrandD,Blue,Sporty,227
+228,Male,50,middle-aged,Heavy,West,"['shoe', 'shirt']",ProductE,bracelet,Spring,heels,BrandC,Blue,Sporty,228
+229,Other,15,middle-aged,Athletic,North,"['pant', 'shirt', 'jacket', 'hat']",ProductE,necklace,Autumn,sandals,BrandA,White,Formal,229
+230,Male,52,middle-aged,Athletic,South,"['hat', 'jacket', 'pant', 'shoe']",ProductC,belt,Summer,flats,BrandB,Red,Casual,230
+231,Other,20,middle-aged,Slim,South,"['shirt', 'shoe', 'jacket', 'hat', 'pant']",ProductD,belt,Autumn,boots,BrandC,Green,Sporty,231
+232,Male,48,senior,Slim,North,['shirt'],ProductC,sunglasses,Spring,sneakers,BrandA,Black,Casual,232
+233,Male,17,senior,Heavy,East,"['jacket', 'hat', 'pant']",ProductC,necklace,Winter,boots,BrandB,Blue,Casual,233
+234,Other,59,senior,Slim,East,"['shoe', 'pant', 'shirt', 'jacket', 'hat']",ProductA,belt,Summer,sneakers,BrandD,Red,Sporty,234
+235,Other,31,young,Athletic,West,"['hat', 'pant']",ProductC,watch,Winter,sneakers,BrandA,Black,Sporty,235
+236,Male,51,senior,Heavy,North,"['pant', 'shoe', 'hat', 'jacket', 'shirt']",ProductB,watch,Autumn,heels,BrandC,White,Formal,236
+237,Other,70,senior,Average,North,"['shirt', 'pant']",ProductB,sunglasses,Spring,sandals,BrandA,Green,Formal,237
+238,Other,35,middle-aged,Average,South,"['hat', 'shirt', 'shoe', 'pant', 'jacket']",ProductA,watch,Autumn,flats,BrandA,Red,Casual,238
+239,Male,23,senior,Heavy,North,"['pant', 'shoe', 'jacket', 'shirt']",ProductD,sunglasses,Autumn,sandals,BrandD,Green,Sporty,239
+240,Male,49,middle-aged,Average,East,"['jacket', 'shoe', 'shirt']",ProductC,watch,Autumn,sandals,BrandC,Green,Casual,240
+241,Male,16,middle-aged,Athletic,South,"['shirt', 'shoe', 'hat', 'jacket', 'pant']",ProductC,necklace,Autumn,sneakers,BrandC,White,Elegant,241
+242,Female,40,senior,Average,North,"['pant', 'hat', 'jacket']",ProductE,necklace,Winter,boots,BrandA,White,Casual,242
+243,Female,65,young,Heavy,East,"['shoe', 'hat', 'pant', 'jacket', 'shirt']",ProductB,sunglasses,Autumn,sneakers,BrandA,Black,Elegant,243
+244,Male,63,young,Average,South,"['hat', 'pant', 'jacket', 'shirt', 'shoe']",ProductC,belt,Winter,boots,BrandA,Red,Formal,244
+245,Male,60,middle-aged,Athletic,North,"['hat', 'shoe', 'shirt', 'pant']",ProductA,watch,Winter,sandals,BrandC,Black,Sporty,245
+246,Other,62,middle-aged,Slim,North,"['hat', 'jacket', 'shirt', 'shoe', 'pant']",ProductB,watch,Summer,heels,BrandC,Red,Elegant,246
+247,Female,15,middle-aged,Slim,South,['pant'],ProductA,necklace,Spring,sandals,BrandA,Blue,Formal,247
+248,Male,66,senior,Heavy,East,"['jacket', 'shirt', 'pant']",ProductE,necklace,Autumn,sandals,BrandC,Red,Elegant,248
+249,Female,15,middle-aged,Athletic,West,"['shirt', 'shoe', 'hat', 'pant']",ProductC,belt,Winter,sandals,BrandC,Green,Sporty,249
+250,Male,59,senior,Slim,South,"['shoe', 'jacket', 'shirt', 'hat']",ProductB,necklace,Autumn,boots,BrandD,Blue,Sporty,250
+251,Other,17,middle-aged,Athletic,West,"['shirt', 'jacket', 'pant', 'shoe', 'hat']",ProductD,bracelet,Autumn,sandals,BrandA,Green,Formal,251
+252,Male,42,middle-aged,Athletic,East,"['jacket', 'shoe', 'pant', 'shirt']",ProductC,watch,Summer,boots,BrandC,White,Sporty,252
+253,Female,68,middle-aged,Athletic,North,"['jacket', 'hat']",ProductA,belt,Spring,sandals,BrandD,Red,Formal,253
+254,Female,19,senior,Slim,West,"['hat', 'shoe', 'pant', 'jacket', 'shirt']",ProductB,belt,Autumn,heels,BrandA,Black,Elegant,254
+255,Male,35,middle-aged,Athletic,North,['jacket'],ProductE,sunglasses,Autumn,boots,BrandC,Green,Elegant,255
+256,Other,30,senior,Athletic,West,"['shirt', 'pant', 'shoe']",ProductD,watch,Summer,sandals,BrandB,White,Casual,256
+257,Female,55,middle-aged,Athletic,South,"['jacket', 'pant', 'shirt']",ProductB,necklace,Summer,flats,BrandD,Red,Sporty,257
+258,Male,31,middle-aged,Average,South,"['shirt', 'shoe']",ProductB,belt,Spring,flats,BrandB,Red,Sporty,258
+259,Male,64,middle-aged,Athletic,North,"['pant', 'shirt', 'jacket']",ProductC,watch,Autumn,sneakers,BrandA,White,Elegant,259
+260,Female,30,middle-aged,Heavy,West,['shirt'],ProductD,watch,Autumn,sneakers,BrandA,Red,Casual,260
+261,Other,33,senior,Slim,North,"['pant', 'hat']",ProductB,belt,Winter,boots,BrandB,Black,Formal,261
+262,Male,46,middle-aged,Heavy,East,['jacket'],ProductE,bracelet,Spring,sandals,BrandA,Green,Formal,262
+263,Other,50,middle-aged,Slim,North,"['shirt', 'shoe', 'hat', 'pant', 'jacket']",ProductC,bracelet,Summer,sneakers,BrandC,Red,Casual,263
+264,Male,37,middle-aged,Slim,North,"['shoe', 'pant']",ProductB,necklace,Spring,heels,BrandC,White,Formal,264
+265,Other,52,middle-aged,Average,East,"['pant', 'hat', 'jacket', 'shoe', 'shirt']",ProductC,bracelet,Spring,heels,BrandA,Green,Elegant,265
+266,Female,35,senior,Heavy,East,"['hat', 'shirt', 'shoe', 'pant', 'jacket']",ProductB,belt,Summer,heels,BrandA,Red,Elegant,266
+267,Male,59,young,Average,North,"['pant', 'shoe']",ProductE,necklace,Spring,flats,BrandC,Red,Casual,267
+268,Female,47,young,Heavy,West,"['jacket', 'pant', 'hat', 'shirt']",ProductA,bracelet,Winter,sandals,BrandD,Black,Casual,268
+269,Male,47,young,Slim,South,"['shoe', 'shirt', 'jacket', 'hat']",ProductE,belt,Autumn,sandals,BrandD,Blue,Elegant,269
+270,Male,25,senior,Average,North,"['shirt', 'jacket', 'pant', 'hat', 'shoe']",ProductB,belt,Winter,boots,BrandC,Green,Formal,270
+271,Other,54,middle-aged,Slim,North,"['shirt', 'hat', 'pant', 'jacket', 'shoe']",ProductA,sunglasses,Winter,heels,BrandC,White,Casual,271
+272,Other,64,senior,Average,South,"['pant', 'jacket', 'shoe']",ProductB,sunglasses,Winter,boots,BrandB,Green,Elegant,272
+273,Female,31,senior,Heavy,North,['jacket'],ProductD,bracelet,Spring,heels,BrandB,Black,Formal,273
+274,Other,18,middle-aged,Average,North,"['shirt', 'jacket', 'shoe', 'hat']",ProductB,bracelet,Autumn,heels,BrandA,White,Casual,274
+275,Female,47,young,Average,South,"['hat', 'jacket', 'shirt']",ProductD,watch,Summer,sandals,BrandD,Red,Elegant,275
+276,Male,45,middle-aged,Average,South,"['hat', 'jacket', 'shirt', 'shoe', 'pant']",ProductB,watch,Spring,sandals,BrandD,Black,Casual,276
+277,Other,53,senior,Athletic,North,"['shoe', 'pant', 'jacket', 'shirt', 'hat']",ProductA,necklace,Autumn,flats,BrandB,Red,Formal,277
+278,Male,20,middle-aged,Athletic,East,"['jacket', 'shirt', 'hat']",ProductC,bracelet,Autumn,sneakers,BrandA,Black,Sporty,278
+279,Other,68,middle-aged,Heavy,South,"['jacket', 'shoe', 'hat', 'shirt', 'pant']",ProductB,sunglasses,Winter,sneakers,BrandB,White,Elegant,279
+280,Female,20,middle-aged,Athletic,North,"['pant', 'shirt', 'shoe']",ProductE,bracelet,Spring,sneakers,BrandD,White,Sporty,280
+281,Female,38,senior,Slim,West,"['shirt', 'shoe', 'pant', 'jacket']",ProductB,necklace,Spring,flats,BrandB,Black,Formal,281
+282,Female,35,middle-aged,Athletic,South,"['jacket', 'shirt', 'shoe', 'hat', 'pant']",ProductC,watch,Spring,heels,BrandB,Blue,Casual,282
+283,Female,19,senior,Slim,West,"['pant', 'hat', 'shirt']",ProductB,belt,Winter,sandals,BrandC,Red,Sporty,283
+284,Male,33,young,Average,North,['jacket'],ProductE,bracelet,Summer,flats,BrandA,Black,Formal,284
+285,Female,53,middle-aged,Heavy,East,"['shirt', 'hat', 'shoe', 'pant', 'jacket']",ProductE,bracelet,Summer,heels,BrandD,Red,Casual,285
+286,Other,17,senior,Slim,North,"['shirt', 'pant', 'jacket', 'hat', 'shoe']",ProductA,belt,Autumn,flats,BrandC,Blue,Casual,286
+287,Male,18,senior,Heavy,North,"['hat', 'jacket', 'pant']",ProductD,belt,Winter,flats,BrandD,Black,Formal,287
+288,Male,43,young,Heavy,West,"['jacket', 'shirt', 'pant', 'hat', 'shoe']",ProductE,sunglasses,Spring,sneakers,BrandC,Blue,Casual,288
+289,Male,56,senior,Slim,North,"['hat', 'shoe']",ProductD,sunglasses,Autumn,flats,BrandD,Green,Sporty,289
+290,Female,18,young,Heavy,North,"['shirt', 'shoe', 'pant']",ProductA,belt,Spring,boots,BrandC,Blue,Elegant,290
+291,Other,42,senior,Slim,East,"['shirt', 'jacket']",ProductA,watch,Autumn,flats,BrandD,Green,Elegant,291
+292,Male,69,senior,Athletic,North,"['pant', 'hat', 'shoe', 'jacket']",ProductD,sunglasses,Spring,sandals,BrandD,Blue,Casual,292
+293,Male,56,middle-aged,Average,West,"['pant', 'jacket']",ProductA,bracelet,Summer,heels,BrandA,Green,Sporty,293
+294,Female,34,senior,Slim,East,"['jacket', 'shoe', 'shirt', 'hat']",ProductB,bracelet,Autumn,boots,BrandC,Blue,Formal,294
+295,Female,44,middle-aged,Slim,North,"['shirt', 'shoe', 'pant']",ProductB,bracelet,Summer,sandals,BrandB,Red,Formal,295
+296,Other,17,senior,Average,North,"['shirt', 'shoe', 'pant']",ProductC,sunglasses,Summer,heels,BrandD,Red,Elegant,296
+297,Male,52,young,Athletic,South,"['pant', 'shoe', 'shirt', 'hat']",ProductA,bracelet,Autumn,sneakers,BrandB,Green,Elegant,297
+298,Other,44,young,Slim,East,"['hat', 'pant', 'shoe', 'shirt', 'jacket']",ProductD,necklace,Winter,boots,BrandC,Blue,Elegant,298
+299,Other,64,senior,Average,East,"['shoe', 'hat', 'pant', 'jacket', 'shirt']",ProductC,necklace,Autumn,flats,BrandC,Blue,Elegant,299
+300,Other,21,middle-aged,Average,West,"['shirt', 'jacket']",ProductB,belt,Autumn,boots,BrandA,Black,Formal,300
+301,Female,36,middle-aged,Slim,West,"['pant', 'shoe']",ProductA,belt,Spring,flats,BrandC,Black,Sporty,301
+302,Female,64,middle-aged,Athletic,West,"['jacket', 'shirt', 'pant', 'hat', 'shoe']",ProductB,necklace,Autumn,sneakers,BrandA,Black,Casual,302
+303,Male,22,senior,Athletic,West,"['hat', 'pant', 'jacket', 'shirt']",ProductE,sunglasses,Summer,boots,BrandA,Green,Casual,303
+304,Other,39,senior,Slim,South,['pant'],ProductA,necklace,Summer,flats,BrandC,Green,Formal,304
+305,Other,50,middle-aged,Average,West,"['hat', 'shoe', 'pant']",ProductD,watch,Winter,heels,BrandA,Green,Casual,305
+306,Male,33,senior,Average,South,"['jacket', 'shoe', 'pant', 'hat']",ProductE,necklace,Summer,boots,BrandB,Blue,Sporty,306
+307,Male,52,senior,Athletic,North,"['jacket', 'shoe', 'shirt']",ProductD,bracelet,Winter,boots,BrandC,Red,Formal,307
+308,Other,31,middle-aged,Heavy,West,"['hat', 'shoe']",ProductA,sunglasses,Winter,flats,BrandA,Red,Sporty,308
+309,Other,18,senior,Average,West,"['pant', 'shoe']",ProductD,belt,Spring,boots,BrandA,Green,Formal,309
+310,Female,40,senior,Athletic,East,"['shirt', 'shoe']",ProductC,sunglasses,Winter,heels,BrandB,White,Sporty,310
+311,Female,36,middle-aged,Slim,South,"['jacket', 'shirt']",ProductA,bracelet,Winter,sandals,BrandA,Red,Casual,311
+312,Other,37,middle-aged,Average,North,"['pant', 'shirt', 'shoe', 'hat']",ProductC,watch,Autumn,sandals,BrandD,Red,Casual,312
+313,Female,58,middle-aged,Heavy,North,"['shoe', 'shirt', 'hat', 'jacket', 'pant']",ProductA,belt,Autumn,boots,BrandB,Green,Sporty,313
+314,Other,48,middle-aged,Slim,West,['shirt'],ProductA,necklace,Spring,boots,BrandD,Black,Formal,314
+315,Other,17,young,Slim,West,"['shoe', 'pant', 'hat', 'jacket']",ProductC,necklace,Autumn,sandals,BrandB,Black,Sporty,315
+316,Male,48,young,Slim,South,"['shoe', 'pant']",ProductD,bracelet,Summer,flats,BrandB,White,Sporty,316
+317,Other,21,young,Heavy,South,"['shirt', 'jacket', 'shoe', 'pant', 'hat']",ProductA,watch,Winter,sandals,BrandB,White,Formal,317
+318,Female,69,middle-aged,Average,East,"['hat', 'shirt']",ProductA,belt,Autumn,flats,BrandA,Blue,Sporty,318
+319,Female,33,young,Athletic,North,"['hat', 'shoe']",ProductC,bracelet,Summer,boots,BrandA,Blue,Casual,319
+320,Female,49,middle-aged,Athletic,West,['hat'],ProductE,sunglasses,Spring,boots,BrandC,Blue,Formal,320
+321,Male,59,middle-aged,Heavy,South,['hat'],ProductC,bracelet,Winter,sneakers,BrandD,Blue,Sporty,321
+322,Male,19,senior,Athletic,North,"['jacket', 'shirt', 'pant', 'hat']",ProductD,bracelet,Winter,flats,BrandC,White,Formal,322
+323,Other,28,senior,Average,West,"['pant', 'shoe', 'hat']",ProductB,bracelet,Autumn,heels,BrandA,Green,Elegant,323
+324,Other,45,middle-aged,Slim,South,"['shoe', 'pant']",ProductC,watch,Summer,flats,BrandB,Green,Formal,324
+325,Male,49,middle-aged,Heavy,East,['pant'],ProductA,necklace,Spring,sandals,BrandA,Blue,Casual,325
+326,Other,49,senior,Average,West,"['jacket', 'shirt', 'shoe', 'pant', 'hat']",ProductD,sunglasses,Spring,boots,BrandC,Blue,Elegant,326
+327,Other,15,middle-aged,Average,East,"['shoe', 'jacket', 'pant', 'shirt', 'hat']",ProductE,necklace,Spring,sandals,BrandB,Red,Elegant,327
+328,Female,38,senior,Athletic,South,"['jacket', 'hat', 'pant']",ProductA,necklace,Autumn,sandals,BrandD,Blue,Sporty,328
+329,Other,22,young,Average,North,"['pant', 'hat', 'shirt', 'jacket', 'shoe']",ProductB,watch,Autumn,sandals,BrandA,Blue,Formal,329
+330,Male,62,senior,Slim,South,"['pant', 'hat', 'shoe', 'shirt', 'jacket']",ProductE,sunglasses,Autumn,boots,BrandA,Black,Sporty,330
+331,Other,31,senior,Athletic,East,"['hat', 'pant', 'shirt']",ProductA,watch,Winter,sneakers,BrandB,Green,Sporty,331
+332,Female,34,senior,Slim,West,['jacket'],ProductC,sunglasses,Autumn,sneakers,BrandB,Black,Casual,332
+333,Female,61,senior,Heavy,North,['jacket'],ProductB,belt,Winter,flats,BrandB,Green,Sporty,333
+334,Female,28,senior,Average,North,['shoe'],ProductE,bracelet,Winter,flats,BrandC,Red,Elegant,334
+335,Female,57,middle-aged,Slim,North,"['shirt', 'shoe', 'pant', 'jacket']",ProductD,watch,Spring,boots,BrandB,Red,Elegant,335
+336,Other,44,young,Slim,East,"['pant', 'jacket']",ProductC,bracelet,Autumn,flats,BrandA,Red,Casual,336
+337,Female,50,senior,Heavy,North,"['hat', 'shirt']",ProductD,bracelet,Autumn,flats,BrandD,Red,Elegant,337
+338,Other,42,middle-aged,Slim,West,"['hat', 'shirt', 'shoe']",ProductC,sunglasses,Summer,boots,BrandA,Red,Sporty,338
+339,Other,66,middle-aged,Heavy,North,"['shoe', 'hat', 'pant', 'shirt', 'jacket']",ProductA,necklace,Autumn,sneakers,BrandC,Green,Elegant,339
+340,Female,24,senior,Athletic,South,"['shirt', 'jacket']",ProductB,watch,Spring,sneakers,BrandD,Green,Sporty,340
+341,Female,36,senior,Heavy,East,"['hat', 'shoe', 'pant', 'jacket']",ProductD,necklace,Winter,heels,BrandA,Green,Elegant,341
+342,Other,34,senior,Slim,West,['jacket'],ProductE,bracelet,Winter,flats,BrandA,Green,Elegant,342
+343,Male,40,middle-aged,Athletic,North,"['jacket', 'shoe', 'shirt', 'hat', 'pant']",ProductB,sunglasses,Autumn,boots,BrandA,Red,Sporty,343
+344,Male,46,middle-aged,Heavy,North,['jacket'],ProductA,watch,Summer,sandals,BrandC,Black,Sporty,344
+345,Female,61,middle-aged,Heavy,East,"['shoe', 'jacket', 'pant', 'shirt']",ProductB,bracelet,Winter,sneakers,BrandA,Black,Casual,345
+346,Male,26,middle-aged,Slim,South,"['jacket', 'shirt']",ProductE,watch,Summer,flats,BrandA,Black,Casual,346
+347,Male,17,middle-aged,Athletic,East,['pant'],ProductC,sunglasses,Spring,sandals,BrandC,White,Formal,347
+348,Female,30,senior,Average,North,"['hat', 'jacket', 'shirt']",ProductD,bracelet,Winter,boots,BrandB,Black,Formal,348
+349,Other,51,young,Slim,South,"['pant', 'shoe', 'shirt', 'jacket', 'hat']",ProductC,belt,Autumn,flats,BrandC,Black,Sporty,349
+350,Female,70,senior,Athletic,North,"['shoe', 'hat', 'shirt']",ProductA,sunglasses,Spring,sneakers,BrandA,White,Sporty,350
+351,Other,47,middle-aged,Average,West,"['shoe', 'pant']",ProductB,watch,Autumn,flats,BrandD,Black,Sporty,351
+352,Other,40,young,Heavy,West,"['pant', 'shoe', 'shirt', 'hat']",ProductC,sunglasses,Winter,boots,BrandB,Blue,Sporty,352
+353,Female,54,senior,Average,West,"['jacket', 'pant']",ProductC,watch,Autumn,flats,BrandA,Red,Casual,353
+354,Male,35,middle-aged,Average,North,"['hat', 'jacket']",ProductB,bracelet,Autumn,heels,BrandB,Black,Sporty,354
+355,Male,62,middle-aged,Athletic,West,"['hat', 'shoe', 'shirt', 'pant']",ProductE,belt,Summer,sandals,BrandA,Blue,Formal,355
+356,Male,68,senior,Heavy,West,"['hat', 'pant']",ProductC,sunglasses,Autumn,flats,BrandC,Green,Formal,356
+357,Other,53,middle-aged,Average,North,"['shirt', 'pant', 'jacket', 'hat', 'shoe']",ProductD,watch,Spring,heels,BrandA,Green,Elegant,357
+358,Female,28,middle-aged,Heavy,East,"['shirt', 'hat', 'shoe']",ProductC,belt,Winter,sneakers,BrandA,Green,Elegant,358
+359,Female,49,middle-aged,Athletic,South,"['jacket', 'shirt', 'pant', 'shoe', 'hat']",ProductA,sunglasses,Winter,heels,BrandD,Green,Sporty,359
+360,Female,15,middle-aged,Athletic,South,"['shoe', 'jacket', 'pant', 'hat', 'shirt']",ProductA,sunglasses,Spring,flats,BrandA,Blue,Elegant,360
+361,Other,34,middle-aged,Average,East,['shoe'],ProductD,sunglasses,Summer,sandals,BrandC,Blue,Sporty,361
+362,Female,36,middle-aged,Average,West,"['shirt', 'pant']",ProductE,belt,Autumn,boots,BrandA,Green,Elegant,362
+363,Female,32,senior,Average,South,"['shirt', 'pant', 'hat']",ProductD,necklace,Summer,boots,BrandB,White,Sporty,363
+364,Male,56,senior,Heavy,East,"['pant', 'shoe', 'hat', 'shirt', 'jacket']",ProductA,bracelet,Spring,heels,BrandD,Black,Formal,364
+365,Female,61,middle-aged,Average,North,"['shirt', 'jacket', 'hat', 'shoe', 'pant']",ProductC,sunglasses,Summer,flats,BrandB,White,Formal,365
+366,Other,62,young,Slim,South,"['pant', 'hat', 'shoe', 'shirt']",ProductB,bracelet,Autumn,sandals,BrandB,Black,Formal,366
+367,Male,21,middle-aged,Athletic,West,"['pant', 'shirt', 'shoe']",ProductE,bracelet,Summer,sneakers,BrandD,Green,Elegant,367
+368,Female,37,senior,Athletic,East,"['pant', 'hat', 'shirt', 'shoe']",ProductC,sunglasses,Autumn,heels,BrandD,Red,Elegant,368
+369,Other,32,senior,Heavy,South,"['hat', 'jacket', 'shoe', 'shirt', 'pant']",ProductC,belt,Autumn,sneakers,BrandC,White,Formal,369
+370,Male,39,senior,Heavy,South,['hat'],ProductE,watch,Spring,sneakers,BrandC,Blue,Elegant,370
+371,Male,54,senior,Average,North,"['hat', 'shoe', 'shirt']",ProductD,sunglasses,Spring,heels,BrandB,Green,Formal,371
+372,Female,50,middle-aged,Athletic,North,"['pant', 'hat', 'shirt', 'shoe']",ProductC,sunglasses,Winter,boots,BrandD,Green,Casual,372
+373,Female,58,young,Heavy,West,"['pant', 'shirt']",ProductB,belt,Winter,sneakers,BrandD,Black,Sporty,373
+374,Other,54,senior,Average,West,"['pant', 'jacket']",ProductE,necklace,Winter,heels,BrandB,Black,Formal,374
+375,Other,29,middle-aged,Athletic,North,"['shirt', 'pant']",ProductE,watch,Summer,boots,BrandD,Red,Elegant,375
+376,Female,56,middle-aged,Heavy,West,"['jacket', 'hat']",ProductC,belt,Autumn,heels,BrandC,Red,Sporty,376
+377,Other,23,middle-aged,Slim,East,"['hat', 'shoe', 'jacket']",ProductB,sunglasses,Winter,heels,BrandD,Black,Sporty,377
+378,Female,25,middle-aged,Average,South,"['pant', 'shoe', 'hat']",ProductA,necklace,Spring,heels,BrandA,Green,Casual,378
+379,Other,25,senior,Heavy,East,"['hat', 'shoe', 'jacket', 'shirt']",ProductA,necklace,Autumn,flats,BrandB,Black,Casual,379
+380,Female,50,middle-aged,Heavy,East,"['shoe', 'shirt', 'pant', 'hat']",ProductC,bracelet,Autumn,boots,BrandB,Red,Sporty,380
+381,Male,18,young,Athletic,East,"['shirt', 'jacket', 'hat']",ProductE,necklace,Autumn,sneakers,BrandA,White,Casual,381
+382,Female,15,young,Average,North,['shirt'],ProductC,bracelet,Summer,heels,BrandC,White,Casual,382
+383,Male,47,senior,Athletic,West,"['hat', 'shoe', 'jacket', 'shirt']",ProductC,bracelet,Autumn,sandals,BrandA,Green,Casual,383
+384,Other,22,young,Heavy,East,"['pant', 'hat', 'shoe']",ProductE,watch,Winter,boots,BrandC,Green,Formal,384
+385,Other,65,middle-aged,Slim,North,"['pant', 'shoe', 'shirt', 'jacket', 'hat']",ProductA,belt,Autumn,heels,BrandD,Black,Formal,385
+386,Male,17,young,Heavy,East,['pant'],ProductE,belt,Autumn,heels,BrandD,Blue,Formal,386
+387,Male,20,young,Average,West,['shoe'],ProductC,sunglasses,Winter,sandals,BrandB,Black,Elegant,387
+388,Female,42,middle-aged,Athletic,West,"['pant', 'shirt', 'shoe', 'jacket']",ProductB,sunglasses,Summer,sneakers,BrandB,Blue,Formal,388
+389,Other,60,senior,Slim,North,['jacket'],ProductA,bracelet,Winter,heels,BrandD,White,Casual,389
+390,Other,54,senior,Athletic,West,"['pant', 'shoe']",ProductA,watch,Summer,heels,BrandB,Red,Casual,390
+391,Other,65,middle-aged,Average,East,"['shirt', 'hat', 'shoe', 'pant', 'jacket']",ProductD,sunglasses,Autumn,flats,BrandC,Blue,Elegant,391
+392,Male,60,senior,Average,South,['hat'],ProductC,necklace,Autumn,sandals,BrandC,Green,Elegant,392
+393,Male,69,senior,Athletic,North,"['jacket', 'shirt', 'shoe', 'pant']",ProductE,belt,Winter,sneakers,BrandC,White,Formal,393
+394,Male,49,senior,Average,East,"['hat', 'pant', 'shoe', 'jacket', 'shirt']",ProductB,sunglasses,Autumn,heels,BrandD,White,Casual,394
+395,Other,61,middle-aged,Athletic,South,"['shoe', 'jacket', 'pant', 'hat']",ProductA,bracelet,Winter,sandals,BrandA,White,Sporty,395
+396,Other,15,middle-aged,Slim,South,"['shirt', 'shoe', 'jacket', 'pant', 'hat']",ProductC,belt,Winter,boots,BrandA,White,Formal,396
+397,Male,42,middle-aged,Average,East,"['pant', 'hat']",ProductC,bracelet,Autumn,sandals,BrandD,White,Sporty,397
+398,Male,64,middle-aged,Athletic,West,"['shirt', 'hat', 'jacket', 'shoe']",ProductA,bracelet,Winter,sandals,BrandB,Red,Formal,398
+399,Female,63,senior,Heavy,West,"['jacket', 'shoe']",ProductE,sunglasses,Autumn,heels,BrandB,Green,Sporty,399
+400,Other,18,senior,Athletic,North,"['shoe', 'hat', 'jacket', 'shirt']",ProductC,bracelet,Spring,boots,BrandD,White,Sporty,400
+401,Male,52,middle-aged,Athletic,East,"['jacket', 'shoe', 'shirt']",ProductC,belt,Summer,sneakers,BrandA,Black,Elegant,401
+402,Female,43,senior,Average,South,"['shirt', 'shoe', 'hat', 'pant', 'jacket']",ProductD,necklace,Winter,sandals,BrandC,Red,Casual,402
+403,Male,57,young,Athletic,West,"['shirt', 'pant', 'jacket']",ProductA,belt,Winter,heels,BrandC,Black,Sporty,403
+404,Female,63,senior,Athletic,East,"['shoe', 'hat', 'shirt']",ProductA,sunglasses,Winter,flats,BrandC,Blue,Formal,404
+405,Male,45,senior,Heavy,West,"['jacket', 'shoe', 'hat']",ProductE,belt,Summer,boots,BrandA,White,Formal,405
+406,Other,61,senior,Average,West,"['jacket', 'pant', 'shoe']",ProductA,belt,Summer,sandals,BrandA,Black,Formal,406
+407,Other,42,middle-aged,Slim,South,"['hat', 'shirt', 'jacket']",ProductB,sunglasses,Spring,heels,BrandA,Blue,Formal,407
+408,Female,69,middle-aged,Heavy,South,['jacket'],ProductB,necklace,Spring,sneakers,BrandA,White,Casual,408
+409,Female,23,senior,Slim,South,"['shirt', 'hat', 'shoe', 'jacket']",ProductE,necklace,Winter,flats,BrandA,White,Sporty,409
+410,Male,21,young,Athletic,North,"['hat', 'shoe']",ProductE,bracelet,Winter,flats,BrandB,Black,Sporty,410
+411,Male,49,middle-aged,Heavy,North,"['shirt', 'pant', 'hat', 'jacket', 'shoe']",ProductA,belt,Winter,flats,BrandA,White,Sporty,411
+412,Female,36,middle-aged,Slim,West,"['shirt', 'pant', 'hat', 'jacket', 'shoe']",ProductB,watch,Summer,flats,BrandA,Black,Elegant,412
+413,Female,16,middle-aged,Slim,East,['jacket'],ProductA,watch,Spring,flats,BrandB,White,Casual,413
+414,Other,31,senior,Athletic,West,"['hat', 'jacket', 'pant', 'shoe', 'shirt']",ProductB,belt,Summer,boots,BrandC,Blue,Formal,414
+415,Other,37,senior,Slim,South,"['hat', 'shoe', 'pant', 'jacket']",ProductA,watch,Summer,heels,BrandA,White,Formal,415
+416,Female,54,senior,Average,East,"['pant', 'shoe', 'shirt']",ProductA,necklace,Autumn,heels,BrandD,Black,Sporty,416
+417,Other,18,middle-aged,Heavy,North,"['pant', 'jacket', 'shirt', 'shoe']",ProductB,bracelet,Spring,sandals,BrandD,Red,Formal,417
+418,Other,40,senior,Athletic,West,"['shoe', 'hat', 'jacket']",ProductA,watch,Autumn,boots,BrandA,Black,Sporty,418
+419,Female,45,senior,Slim,North,"['jacket', 'hat', 'pant']",ProductB,watch,Autumn,sandals,BrandA,Blue,Formal,419
+420,Female,28,young,Heavy,South,"['hat', 'pant', 'jacket', 'shoe']",ProductE,sunglasses,Autumn,sandals,BrandB,Black,Formal,420
+421,Other,39,middle-aged,Slim,West,"['jacket', 'hat', 'pant']",ProductA,watch,Autumn,sneakers,BrandD,Red,Formal,421
+422,Male,36,middle-aged,Heavy,East,"['shirt', 'pant', 'hat', 'shoe', 'jacket']",ProductC,necklace,Summer,sandals,BrandD,Green,Sporty,422
+423,Other,35,senior,Slim,East,"['jacket', 'shirt', 'hat', 'pant', 'shoe']",ProductA,necklace,Spring,flats,BrandD,White,Sporty,423
+424,Other,19,middle-aged,Heavy,West,"['pant', 'jacket', 'shoe', 'hat']",ProductE,bracelet,Summer,sneakers,BrandC,Green,Casual,424
+425,Female,24,young,Heavy,East,['shirt'],ProductA,watch,Winter,heels,BrandB,Green,Sporty,425
+426,Female,51,middle-aged,Athletic,North,"['hat', 'jacket', 'shoe', 'pant']",ProductE,necklace,Winter,boots,BrandC,Red,Elegant,426
+427,Other,22,young,Heavy,West,"['jacket', 'shirt', 'shoe']",ProductE,belt,Autumn,boots,BrandD,Blue,Sporty,427
+428,Other,47,middle-aged,Athletic,South,"['pant', 'shoe', 'jacket', 'hat']",ProductB,necklace,Winter,sandals,BrandD,Blue,Casual,428
+429,Other,37,senior,Athletic,South,"['hat', 'pant', 'jacket', 'shoe', 'shirt']",ProductC,necklace,Autumn,boots,BrandD,Red,Sporty,429
+430,Female,34,middle-aged,Average,West,"['shoe', 'shirt', 'pant', 'hat']",ProductD,bracelet,Autumn,heels,BrandC,White,Sporty,430
+431,Other,50,young,Athletic,East,"['jacket', 'hat']",ProductA,necklace,Winter,boots,BrandA,White,Formal,431
+432,Other,27,young,Heavy,North,"['shirt', 'shoe']",ProductB,watch,Winter,heels,BrandC,White,Formal,432
+433,Female,29,middle-aged,Slim,South,"['hat', 'jacket', 'shirt']",ProductD,sunglasses,Winter,sneakers,BrandC,Blue,Formal,433
+434,Male,62,young,Heavy,South,"['hat', 'shoe', 'pant', 'shirt']",ProductB,watch,Summer,boots,BrandB,Black,Elegant,434
+435,Male,31,middle-aged,Average,North,"['hat', 'shoe', 'jacket', 'shirt', 'pant']",ProductE,sunglasses,Spring,heels,BrandB,Green,Elegant,435
+436,Male,54,middle-aged,Average,North,"['hat', 'pant', 'shirt', 'jacket', 'shoe']",ProductC,necklace,Winter,boots,BrandC,Red,Casual,436
+437,Male,15,senior,Slim,East,['shoe'],ProductA,belt,Autumn,flats,BrandD,White,Elegant,437
+438,Other,31,middle-aged,Athletic,South,"['jacket', 'shirt', 'pant', 'hat']",ProductD,necklace,Summer,heels,BrandD,Red,Casual,438
+439,Male,29,middle-aged,Average,East,"['shirt', 'pant', 'hat', 'shoe']",ProductA,watch,Summer,heels,BrandA,Green,Sporty,439
+440,Female,43,senior,Slim,West,"['pant', 'shirt', 'shoe', 'hat']",ProductC,sunglasses,Autumn,sneakers,BrandA,Green,Elegant,440
+441,Other,24,senior,Average,North,['pant'],ProductC,belt,Winter,sneakers,BrandC,Red,Sporty,441
+442,Male,68,middle-aged,Slim,North,"['jacket', 'hat']",ProductB,watch,Spring,boots,BrandB,White,Elegant,442
+443,Male,36,senior,Athletic,North,"['shirt', 'hat']",ProductD,bracelet,Autumn,sandals,BrandA,Blue,Elegant,443
+444,Other,39,middle-aged,Athletic,East,"['hat', 'shirt', 'pant', 'shoe']",ProductB,necklace,Autumn,boots,BrandC,Red,Elegant,444
+445,Male,69,senior,Slim,North,"['shirt', 'jacket', 'pant', 'shoe', 'hat']",ProductD,watch,Autumn,sneakers,BrandD,Black,Elegant,445
+446,Male,23,senior,Slim,North,"['shirt', 'jacket', 'shoe']",ProductD,watch,Summer,sneakers,BrandA,Green,Casual,446
+447,Male,55,middle-aged,Slim,East,"['shoe', 'hat', 'shirt', 'jacket', 'pant']",ProductC,sunglasses,Summer,heels,BrandC,Green,Formal,447
+448,Female,21,senior,Athletic,West,['shirt'],ProductA,necklace,Summer,heels,BrandB,Black,Elegant,448
+449,Female,22,senior,Slim,West,"['jacket', 'shoe', 'hat', 'pant']",ProductC,sunglasses,Summer,flats,BrandC,Red,Elegant,449
+450,Male,31,senior,Slim,East,"['shirt', 'jacket', 'pant', 'shoe']",ProductE,necklace,Autumn,boots,BrandD,Green,Casual,450
+451,Other,38,middle-aged,Heavy,South,"['pant', 'shoe', 'hat']",ProductC,watch,Summer,boots,BrandD,Red,Formal,451
+452,Female,16,senior,Slim,East,"['hat', 'shirt', 'jacket', 'shoe']",ProductB,bracelet,Autumn,flats,BrandD,Red,Elegant,452
+453,Other,18,senior,Heavy,West,"['hat', 'shoe', 'pant', 'shirt']",ProductE,necklace,Spring,heels,BrandB,White,Casual,453
+454,Male,50,senior,Heavy,South,['shirt'],ProductB,sunglasses,Summer,boots,BrandA,Blue,Elegant,454
+455,Female,65,middle-aged,Average,East,"['pant', 'hat', 'shirt', 'jacket', 'shoe']",ProductB,sunglasses,Summer,boots,BrandB,Black,Elegant,455
+456,Other,15,middle-aged,Athletic,North,['jacket'],ProductA,sunglasses,Spring,sandals,BrandA,Blue,Formal,456
+457,Female,37,senior,Heavy,South,"['shirt', 'hat', 'jacket', 'shoe']",ProductD,bracelet,Spring,sneakers,BrandC,Green,Elegant,457
+458,Other,25,senior,Heavy,East,"['hat', 'jacket', 'shoe']",ProductC,bracelet,Spring,flats,BrandA,Blue,Elegant,458
+459,Female,46,middle-aged,Athletic,South,"['shoe', 'shirt', 'hat']",ProductE,watch,Spring,heels,BrandB,Green,Sporty,459
+460,Male,17,middle-aged,Slim,North,"['hat', 'shoe', 'jacket', 'pant']",ProductC,sunglasses,Winter,flats,BrandC,Red,Casual,460
+461,Male,70,senior,Heavy,North,['shoe'],ProductC,bracelet,Winter,heels,BrandB,Black,Elegant,461
+462,Other,19,senior,Slim,North,"['hat', 'shirt', 'shoe', 'jacket']",ProductA,bracelet,Summer,heels,BrandA,Red,Casual,462
+463,Other,43,middle-aged,Heavy,East,['jacket'],ProductD,necklace,Spring,heels,BrandD,Blue,Elegant,463
+464,Male,38,middle-aged,Slim,East,"['jacket', 'pant']",ProductD,belt,Winter,heels,BrandB,White,Sporty,464
+465,Other,26,middle-aged,Slim,East,['hat'],ProductE,watch,Winter,heels,BrandB,Blue,Elegant,465
+466,Other,40,middle-aged,Athletic,West,"['shoe', 'pant', 'hat', 'shirt', 'jacket']",ProductE,watch,Summer,flats,BrandB,Red,Casual,466
+467,Other,39,senior,Slim,West,"['pant', 'hat', 'jacket', 'shirt', 'shoe']",ProductE,watch,Summer,boots,BrandB,Green,Formal,467
+468,Female,65,middle-aged,Average,North,"['shoe', 'pant']",ProductB,watch,Summer,sneakers,BrandC,Black,Elegant,468
+469,Female,40,middle-aged,Heavy,West,"['hat', 'jacket']",ProductC,belt,Autumn,flats,BrandD,Red,Formal,469
+470,Other,70,middle-aged,Athletic,North,['shirt'],ProductD,sunglasses,Spring,flats,BrandD,Blue,Elegant,470
+471,Male,70,senior,Average,South,['jacket'],ProductB,necklace,Autumn,boots,BrandA,Black,Elegant,471
+472,Male,17,middle-aged,Heavy,East,"['hat', 'pant']",ProductB,bracelet,Autumn,heels,BrandB,Black,Sporty,472
+473,Other,35,young,Heavy,South,"['pant', 'shoe', 'hat', 'jacket']",ProductC,belt,Spring,boots,BrandD,Green,Formal,473
+474,Other,24,young,Athletic,South,"['shoe', 'jacket']",ProductC,belt,Autumn,flats,BrandB,White,Casual,474
+475,Other,45,senior,Average,South,"['shoe', 'shirt']",ProductD,sunglasses,Summer,heels,BrandB,White,Sporty,475
+476,Other,70,middle-aged,Athletic,East,"['pant', 'jacket']",ProductB,sunglasses,Winter,sneakers,BrandC,Green,Formal,476
+477,Other,21,senior,Heavy,South,"['shirt', 'shoe']",ProductB,bracelet,Winter,boots,BrandA,White,Casual,477
+478,Female,67,senior,Heavy,East,"['shoe', 'shirt', 'hat']",ProductE,sunglasses,Winter,heels,BrandD,Red,Elegant,478
+479,Male,25,senior,Slim,South,"['jacket', 'shoe']",ProductD,necklace,Autumn,sandals,BrandC,White,Sporty,479
+480,Female,16,senior,Athletic,West,"['shirt', 'pant']",ProductC,sunglasses,Summer,sneakers,BrandC,Black,Formal,480
+481,Other,16,middle-aged,Average,North,"['pant', 'hat', 'shirt', 'shoe', 'jacket']",ProductB,watch,Summer,sneakers,BrandC,Blue,Formal,481
+482,Female,35,middle-aged,Athletic,East,"['shoe', 'jacket', 'pant', 'shirt', 'hat']",ProductB,belt,Winter,sandals,BrandD,Black,Elegant,482
+483,Female,27,senior,Average,North,"['hat', 'shirt', 'shoe', 'pant']",ProductC,bracelet,Spring,sandals,BrandD,Black,Elegant,483
+484,Other,51,middle-aged,Heavy,East,"['jacket', 'pant', 'shoe', 'hat', 'shirt']",ProductC,watch,Spring,sandals,BrandB,Green,Formal,484
+485,Other,65,senior,Average,West,"['pant', 'hat', 'shoe', 'shirt']",ProductC,bracelet,Autumn,sandals,BrandC,Green,Elegant,485
+486,Male,50,middle-aged,Average,West,"['shoe', 'jacket', 'hat']",ProductA,necklace,Autumn,flats,BrandD,Black,Elegant,486
+487,Male,31,middle-aged,Average,East,"['hat', 'shoe', 'pant', 'jacket', 'shirt']",ProductE,sunglasses,Autumn,sandals,BrandA,White,Elegant,487
+488,Female,30,senior,Slim,West,"['shirt', 'pant', 'jacket', 'shoe', 'hat']",ProductC,sunglasses,Autumn,heels,BrandA,Red,Sporty,488
+489,Male,15,middle-aged,Heavy,West,"['hat', 'shirt', 'pant', 'jacket']",ProductB,watch,Spring,sandals,BrandA,Red,Sporty,489
+490,Female,49,middle-aged,Heavy,South,"['shoe', 'pant']",ProductA,belt,Summer,heels,BrandB,Red,Casual,490
+491,Male,25,senior,Heavy,North,"['shirt', 'shoe']",ProductC,belt,Summer,sneakers,BrandD,Black,Casual,491
+492,Other,17,middle-aged,Heavy,East,"['hat', 'jacket', 'pant']",ProductC,bracelet,Winter,sneakers,BrandB,White,Sporty,492
+493,Female,59,senior,Average,North,"['hat', 'shoe', 'jacket', 'shirt', 'pant']",ProductE,bracelet,Autumn,sneakers,BrandD,Red,Casual,493
+494,Other,61,senior,Athletic,West,"['shoe', 'shirt', 'pant']",ProductD,sunglasses,Summer,flats,BrandD,White,Casual,494
+495,Other,27,young,Athletic,North,"['jacket', 'pant', 'shirt', 'hat', 'shoe']",ProductA,bracelet,Spring,sandals,BrandC,Green,Elegant,495
+496,Male,62,middle-aged,Slim,South,"['shoe', 'shirt']",ProductC,sunglasses,Summer,flats,BrandD,Blue,Casual,496
+497,Other,58,senior,Athletic,North,"['jacket', 'pant', 'shoe', 'hat', 'shirt']",ProductD,belt,Autumn,sandals,BrandD,Green,Casual,497
+498,Male,15,young,Average,West,"['shirt', 'hat', 'jacket', 'shoe']",ProductC,watch,Summer,flats,BrandD,Red,Formal,498
+499,Female,58,senior,Slim,East,['shoe'],ProductE,sunglasses,Spring,sandals,BrandD,Blue,Casual,499
+500,Female,42,middle-aged,Athletic,North,"['pant', 'jacket', 'shirt']",ProductB,watch,Summer,sneakers,BrandC,Blue,Formal,500
+501,Other,49,middle-aged,Average,South,['shoe'],ProductE,belt,Spring,boots,BrandD,White,Sporty,501
+502,Male,40,young,Average,South,"['shirt', 'hat', 'jacket', 'shoe']",ProductB,necklace,Autumn,sandals,BrandB,Green,Sporty,502
+503,Female,39,young,Average,East,"['hat', 'jacket', 'shoe', 'pant']",ProductA,sunglasses,Summer,heels,BrandA,Blue,Formal,503
+504,Other,33,middle-aged,Average,North,"['shirt', 'shoe', 'hat', 'jacket', 'pant']",ProductC,belt,Spring,sandals,BrandC,Green,Casual,504
+505,Other,25,senior,Athletic,North,"['hat', 'pant']",ProductC,necklace,Spring,sneakers,BrandC,Blue,Casual,505
+506,Male,24,senior,Athletic,South,"['jacket', 'hat', 'shirt', 'pant', 'shoe']",ProductB,sunglasses,Winter,flats,BrandB,Green,Sporty,506
+507,Male,38,middle-aged,Slim,North,['shoe'],ProductC,sunglasses,Autumn,sneakers,BrandC,Green,Formal,507
+508,Other,61,middle-aged,Heavy,East,"['shirt', 'jacket', 'pant']",ProductA,belt,Spring,sandals,BrandB,White,Elegant,508
+509,Female,49,middle-aged,Slim,South,"['hat', 'shoe', 'pant', 'jacket', 'shirt']",ProductA,bracelet,Autumn,heels,BrandD,Black,Elegant,509
+510,Female,65,young,Slim,East,"['shoe', 'pant', 'jacket', 'shirt']",ProductE,necklace,Winter,heels,BrandD,Blue,Formal,510
+511,Male,16,senior,Athletic,East,"['shirt', 'hat', 'jacket']",ProductB,watch,Winter,boots,BrandB,White,Sporty,511
+512,Other,47,middle-aged,Heavy,West,['hat'],ProductD,watch,Autumn,boots,BrandA,White,Sporty,512
+513,Female,45,middle-aged,Heavy,North,['shoe'],ProductB,belt,Spring,boots,BrandB,White,Formal,513
+514,Female,32,senior,Average,East,"['shoe', 'jacket', 'shirt', 'pant']",ProductE,belt,Summer,sneakers,BrandA,Black,Casual,514
+515,Male,61,middle-aged,Heavy,North,"['pant', 'jacket', 'shoe', 'hat']",ProductE,bracelet,Winter,heels,BrandB,Blue,Casual,515
+516,Other,49,senior,Slim,West,"['pant', 'shoe', 'shirt', 'jacket']",ProductB,necklace,Autumn,flats,BrandA,Red,Formal,516
+517,Male,43,middle-aged,Heavy,North,['shirt'],ProductD,watch,Winter,heels,BrandA,Red,Casual,517
+518,Other,60,middle-aged,Athletic,East,"['pant', 'jacket', 'hat', 'shoe', 'shirt']",ProductC,sunglasses,Spring,sandals,BrandA,White,Elegant,518
+519,Male,59,young,Heavy,West,"['jacket', 'pant', 'shoe']",ProductB,necklace,Autumn,flats,BrandA,Black,Formal,519
+520,Female,49,senior,Heavy,West,['jacket'],ProductD,sunglasses,Summer,sandals,BrandD,Black,Formal,520
+521,Male,18,middle-aged,Average,South,"['hat', 'shoe', 'shirt']",ProductC,bracelet,Spring,heels,BrandD,Black,Sporty,521
+522,Other,67,young,Heavy,North,['pant'],ProductC,belt,Spring,boots,BrandA,Red,Elegant,522
+523,Female,54,middle-aged,Average,East,"['shoe', 'hat', 'pant']",ProductD,necklace,Autumn,sandals,BrandA,Red,Casual,523
+524,Other,52,young,Heavy,West,"['shoe', 'shirt']",ProductD,belt,Autumn,sneakers,BrandD,White,Elegant,524
+525,Male,44,middle-aged,Athletic,North,"['jacket', 'shirt', 'pant', 'shoe', 'hat']",ProductB,bracelet,Autumn,boots,BrandA,Green,Sporty,525
+526,Other,22,middle-aged,Slim,West,['hat'],ProductB,belt,Summer,boots,BrandA,White,Sporty,526
+527,Female,17,senior,Slim,West,"['pant', 'shirt', 'hat', 'jacket']",ProductE,sunglasses,Spring,heels,BrandA,Blue,Formal,527
+528,Other,36,senior,Slim,North,"['pant', 'jacket']",ProductB,bracelet,Spring,sandals,BrandA,Black,Formal,528
+529,Male,17,middle-aged,Average,East,"['shoe', 'pant']",ProductB,sunglasses,Winter,flats,BrandC,Black,Formal,529
+530,Other,52,senior,Average,North,"['hat', 'shoe']",ProductE,sunglasses,Autumn,sneakers,BrandC,White,Elegant,530
+531,Other,47,middle-aged,Heavy,West,"['hat', 'shirt']",ProductD,sunglasses,Winter,flats,BrandD,White,Elegant,531
+532,Other,39,middle-aged,Slim,West,['hat'],ProductB,necklace,Summer,sneakers,BrandD,White,Casual,532
+533,Male,24,senior,Slim,South,"['shirt', 'jacket', 'hat', 'pant', 'shoe']",ProductA,necklace,Winter,flats,BrandC,Red,Sporty,533
+534,Male,55,young,Athletic,West,"['shoe', 'jacket', 'pant', 'hat', 'shirt']",ProductE,necklace,Spring,sneakers,BrandD,Red,Casual,534
+535,Male,31,senior,Heavy,East,['hat'],ProductB,sunglasses,Autumn,sandals,BrandA,Red,Casual,535
+536,Other,44,middle-aged,Athletic,South,"['shoe', 'hat', 'pant', 'shirt', 'jacket']",ProductB,belt,Summer,heels,BrandD,Red,Formal,536
+537,Male,41,young,Average,North,"['jacket', 'hat', 'shoe']",ProductE,watch,Winter,sandals,BrandD,Red,Elegant,537
+538,Other,70,senior,Average,East,"['shirt', 'shoe', 'jacket']",ProductA,bracelet,Summer,heels,BrandD,Blue,Formal,538
+539,Male,17,young,Average,West,"['hat', 'shirt']",ProductB,sunglasses,Autumn,heels,BrandC,Black,Elegant,539
+540,Male,25,middle-aged,Average,North,"['pant', 'shoe', 'shirt', 'jacket']",ProductD,bracelet,Summer,sneakers,BrandB,White,Formal,540
+541,Male,55,middle-aged,Slim,North,"['pant', 'shirt']",ProductE,sunglasses,Spring,heels,BrandA,White,Elegant,541
+542,Other,29,middle-aged,Slim,North,"['shirt', 'jacket', 'shoe', 'hat']",ProductA,watch,Autumn,flats,BrandD,Blue,Sporty,542
+543,Female,23,senior,Slim,South,"['shoe', 'hat']",ProductD,sunglasses,Autumn,flats,BrandA,Blue,Casual,543
+544,Other,33,middle-aged,Heavy,North,"['shirt', 'pant', 'shoe', 'jacket']",ProductA,sunglasses,Autumn,boots,BrandC,White,Casual,544
+545,Female,39,senior,Heavy,North,"['shoe', 'shirt']",ProductA,watch,Spring,heels,BrandC,White,Casual,545
+546,Female,40,young,Heavy,South,"['shirt', 'jacket', 'shoe', 'hat']",ProductD,bracelet,Autumn,sneakers,BrandC,White,Elegant,546
+547,Female,19,middle-aged,Slim,South,"['hat', 'jacket', 'shoe']",ProductD,necklace,Autumn,sneakers,BrandB,White,Sporty,547
+548,Male,70,young,Slim,South,"['shirt', 'hat', 'shoe', 'pant', 'jacket']",ProductD,watch,Autumn,flats,BrandC,Black,Elegant,548
+549,Female,64,middle-aged,Slim,North,"['shirt', 'shoe', 'jacket']",ProductD,bracelet,Spring,sandals,BrandC,Green,Formal,549
+550,Male,39,senior,Average,West,"['jacket', 'pant', 'hat', 'shoe', 'shirt']",ProductC,watch,Winter,heels,BrandD,Red,Formal,550
+551,Male,20,middle-aged,Slim,North,"['hat', 'pant', 'shirt', 'jacket']",ProductB,watch,Winter,heels,BrandA,Blue,Sporty,551
+552,Other,31,young,Slim,West,"['shirt', 'pant']",ProductD,sunglasses,Autumn,boots,BrandC,Black,Casual,552
+553,Male,23,young,Slim,West,"['pant', 'shirt']",ProductC,belt,Winter,heels,BrandD,White,Formal,553
+554,Female,61,middle-aged,Athletic,East,"['hat', 'jacket', 'shoe', 'shirt']",ProductD,sunglasses,Summer,sandals,BrandA,Red,Formal,554
+555,Other,32,young,Slim,West,['pant'],ProductE,necklace,Summer,flats,BrandA,Red,Casual,555
+556,Female,30,middle-aged,Heavy,South,"['shoe', 'pant', 'jacket', 'shirt', 'hat']",ProductD,necklace,Autumn,flats,BrandB,Blue,Sporty,556
+557,Female,36,senior,Heavy,North,"['shirt', 'shoe', 'jacket']",ProductD,sunglasses,Winter,heels,BrandC,Green,Elegant,557
+558,Male,25,middle-aged,Athletic,East,"['pant', 'hat', 'shirt', 'jacket', 'shoe']",ProductD,necklace,Autumn,flats,BrandB,Blue,Sporty,558
+559,Male,17,senior,Athletic,West,"['hat', 'shirt']",ProductD,bracelet,Autumn,sneakers,BrandA,Blue,Casual,559
+560,Male,34,senior,Heavy,South,['jacket'],ProductA,sunglasses,Autumn,sneakers,BrandB,White,Elegant,560
+561,Male,62,young,Heavy,South,"['jacket', 'shirt']",ProductB,belt,Spring,boots,BrandA,Red,Elegant,561
+562,Female,26,middle-aged,Slim,East,"['shoe', 'pant']",ProductA,watch,Winter,flats,BrandC,Green,Casual,562
+563,Male,22,senior,Slim,West,['pant'],ProductE,sunglasses,Autumn,flats,BrandC,Blue,Elegant,563
+564,Male,33,middle-aged,Heavy,North,"['shirt', 'shoe']",ProductE,sunglasses,Spring,sneakers,BrandC,Black,Sporty,564
+565,Male,37,middle-aged,Athletic,North,['shirt'],ProductA,necklace,Spring,heels,BrandA,White,Casual,565
+566,Female,53,senior,Athletic,West,"['shirt', 'shoe', 'jacket', 'hat']",ProductA,necklace,Spring,flats,BrandB,Green,Casual,566
+567,Female,36,senior,Heavy,West,"['shoe', 'pant', 'jacket', 'shirt']",ProductB,watch,Winter,sandals,BrandD,Red,Sporty,567
+568,Male,68,middle-aged,Average,South,"['pant', 'shoe', 'hat', 'shirt', 'jacket']",ProductA,bracelet,Autumn,sandals,BrandC,Blue,Formal,568
+569,Other,22,young,Athletic,South,"['jacket', 'shirt', 'pant', 'shoe']",ProductD,sunglasses,Summer,boots,BrandB,Black,Sporty,569
+570,Male,54,senior,Athletic,South,"['shoe', 'hat', 'shirt', 'pant']",ProductD,belt,Autumn,boots,BrandA,Green,Formal,570
+571,Female,20,young,Average,West,"['jacket', 'hat', 'shoe']",ProductC,watch,Summer,boots,BrandA,White,Formal,571
+572,Male,19,senior,Athletic,West,"['jacket', 'shirt', 'pant', 'hat']",ProductB,sunglasses,Spring,heels,BrandD,Green,Casual,572
+573,Other,45,middle-aged,Heavy,West,"['shoe', 'pant', 'shirt', 'jacket', 'hat']",ProductA,necklace,Spring,sandals,BrandA,White,Formal,573
+574,Female,25,middle-aged,Slim,West,"['pant', 'jacket', 'shoe', 'hat', 'shirt']",ProductB,watch,Autumn,flats,BrandD,Black,Casual,574
+575,Male,66,middle-aged,Average,East,"['hat', 'shirt', 'pant', 'shoe']",ProductB,bracelet,Winter,heels,BrandA,Red,Elegant,575
+576,Other,34,middle-aged,Heavy,East,['shoe'],ProductA,necklace,Autumn,sneakers,BrandD,Green,Sporty,576
+577,Male,55,senior,Heavy,North,"['shoe', 'shirt', 'pant', 'jacket', 'hat']",ProductC,necklace,Summer,flats,BrandD,White,Sporty,577
+578,Female,23,senior,Slim,North,"['pant', 'shirt', 'jacket', 'hat']",ProductC,bracelet,Autumn,heels,BrandC,Red,Elegant,578
+579,Male,33,middle-aged,Average,West,"['hat', 'shoe', 'shirt']",ProductB,necklace,Summer,sandals,BrandB,Red,Sporty,579
+580,Female,15,middle-aged,Heavy,West,['jacket'],ProductC,bracelet,Autumn,heels,BrandA,Green,Elegant,580
+581,Male,22,senior,Athletic,East,"['jacket', 'shirt', 'hat', 'pant']",ProductE,bracelet,Summer,sneakers,BrandB,White,Sporty,581
+582,Other,28,senior,Heavy,East,"['shirt', 'shoe', 'jacket']",ProductA,watch,Spring,sandals,BrandD,Black,Casual,582
+583,Other,25,middle-aged,Athletic,South,"['jacket', 'hat', 'pant', 'shirt', 'shoe']",ProductD,belt,Spring,sneakers,BrandD,Red,Sporty,583
+584,Male,52,young,Slim,East,"['shirt', 'jacket', 'hat', 'pant']",ProductC,necklace,Spring,sandals,BrandD,Red,Elegant,584
+585,Female,46,middle-aged,Slim,South,['jacket'],ProductB,bracelet,Summer,flats,BrandA,White,Casual,585
+586,Other,57,young,Average,North,"['shoe', 'shirt', 'jacket', 'hat']",ProductD,belt,Summer,sandals,BrandA,White,Sporty,586
+587,Male,49,middle-aged,Average,East,['pant'],ProductB,watch,Summer,heels,BrandD,White,Casual,587
+588,Female,64,young,Athletic,South,"['pant', 'jacket', 'hat']",ProductA,watch,Autumn,sneakers,BrandB,White,Elegant,588
+589,Other,21,senior,Athletic,East,['shoe'],ProductD,sunglasses,Winter,sneakers,BrandC,Blue,Casual,589
+590,Male,40,middle-aged,Athletic,West,['shirt'],ProductB,belt,Spring,sandals,BrandD,White,Elegant,590
+591,Other,51,middle-aged,Slim,South,"['pant', 'shoe', 'shirt', 'jacket', 'hat']",ProductB,belt,Autumn,boots,BrandC,Green,Sporty,591
+592,Male,69,senior,Slim,North,['shirt'],ProductE,belt,Spring,sandals,BrandC,White,Formal,592
+593,Female,61,senior,Average,South,['shirt'],ProductC,belt,Winter,boots,BrandA,Black,Casual,593
+594,Male,54,senior,Average,West,"['hat', 'pant', 'jacket', 'shirt', 'shoe']",ProductE,sunglasses,Summer,flats,BrandC,Blue,Formal,594
+595,Other,70,middle-aged,Heavy,West,['pant'],ProductD,bracelet,Winter,boots,BrandA,Black,Formal,595
+596,Other,38,senior,Heavy,North,"['shoe', 'hat', 'shirt', 'pant']",ProductA,bracelet,Winter,sneakers,BrandC,Blue,Casual,596
+597,Male,63,middle-aged,Heavy,West,"['shoe', 'jacket', 'shirt']",ProductE,sunglasses,Summer,flats,BrandD,Black,Sporty,597
+598,Female,60,young,Athletic,South,"['shoe', 'pant', 'hat']",ProductD,watch,Autumn,heels,BrandC,Blue,Casual,598
+599,Male,47,young,Average,South,['pant'],ProductA,watch,Summer,sneakers,BrandA,Blue,Sporty,599
+600,Other,60,senior,Average,East,"['shoe', 'shirt', 'jacket', 'hat', 'pant']",ProductD,necklace,Autumn,sandals,BrandC,Blue,Casual,600
+601,Male,25,young,Average,North,"['pant', 'jacket', 'shoe', 'hat']",ProductE,belt,Summer,boots,BrandD,Black,Casual,601
+602,Other,65,senior,Average,South,"['pant', 'jacket', 'shoe', 'shirt', 'hat']",ProductD,sunglasses,Summer,heels,BrandB,Green,Formal,602
+603,Female,47,senior,Heavy,West,"['jacket', 'hat', 'shirt', 'shoe']",ProductE,necklace,Winter,heels,BrandA,Red,Sporty,603
+604,Female,19,middle-aged,Heavy,East,"['shoe', 'shirt']",ProductD,watch,Summer,boots,BrandB,Red,Casual,604
+605,Female,45,middle-aged,Slim,South,['shoe'],ProductA,bracelet,Winter,sandals,BrandA,Blue,Formal,605
+606,Male,55,young,Athletic,North,"['pant', 'hat', 'jacket', 'shirt', 'shoe']",ProductB,sunglasses,Winter,heels,BrandC,Blue,Formal,606
+607,Male,29,middle-aged,Average,South,['hat'],ProductA,bracelet,Spring,flats,BrandA,White,Casual,607
+608,Female,42,senior,Heavy,East,"['jacket', 'pant', 'shirt', 'shoe', 'hat']",ProductE,necklace,Autumn,heels,BrandA,Blue,Casual,608
+609,Female,53,senior,Heavy,North,['shirt'],ProductC,necklace,Autumn,heels,BrandD,Black,Elegant,609
+610,Female,51,senior,Athletic,North,"['hat', 'pant']",ProductC,belt,Summer,flats,BrandC,White,Elegant,610
+611,Female,35,middle-aged,Average,West,['shirt'],ProductE,belt,Spring,flats,BrandB,Red,Casual,611
+612,Other,53,young,Heavy,South,"['shoe', 'jacket']",ProductB,necklace,Spring,sneakers,BrandD,White,Sporty,612
+613,Female,38,senior,Heavy,North,['pant'],ProductC,bracelet,Autumn,heels,BrandB,Black,Elegant,613
+614,Male,24,senior,Slim,West,"['shoe', 'shirt', 'jacket', 'pant']",ProductC,sunglasses,Summer,boots,BrandD,Green,Casual,614
+615,Male,19,senior,Heavy,West,['shirt'],ProductA,belt,Spring,sneakers,BrandA,Black,Formal,615
+616,Male,46,senior,Athletic,North,"['shoe', 'hat']",ProductD,watch,Spring,sneakers,BrandB,Green,Elegant,616
+617,Male,66,senior,Average,North,"['jacket', 'pant', 'shoe', 'shirt']",ProductD,bracelet,Spring,sandals,BrandA,Red,Sporty,617
+618,Female,20,middle-aged,Slim,North,"['shirt', 'pant', 'jacket']",ProductB,watch,Summer,sandals,BrandC,Black,Formal,618
+619,Female,49,senior,Heavy,West,"['hat', 'shoe', 'pant', 'jacket', 'shirt']",ProductC,bracelet,Spring,boots,BrandA,Black,Casual,619
+620,Other,40,middle-aged,Athletic,West,"['shirt', 'jacket', 'shoe', 'pant']",ProductA,bracelet,Autumn,boots,BrandA,Green,Sporty,620
+621,Male,20,middle-aged,Heavy,East,['hat'],ProductC,watch,Autumn,heels,BrandC,Green,Elegant,621
+622,Other,66,middle-aged,Average,North,['pant'],ProductD,sunglasses,Autumn,boots,BrandD,Blue,Sporty,622
+623,Male,23,middle-aged,Heavy,South,"['shoe', 'shirt', 'pant', 'jacket']",ProductC,belt,Autumn,heels,BrandB,Black,Casual,623
+624,Male,64,senior,Slim,West,['shoe'],ProductD,watch,Summer,flats,BrandA,Black,Elegant,624
+625,Other,53,middle-aged,Athletic,North,"['shirt', 'pant', 'hat']",ProductC,belt,Summer,sandals,BrandA,Green,Formal,625
+626,Male,33,senior,Slim,West,"['jacket', 'shoe', 'hat', 'pant', 'shirt']",ProductC,necklace,Spring,heels,BrandC,Green,Elegant,626
+627,Other,62,middle-aged,Heavy,West,"['pant', 'jacket', 'hat', 'shoe', 'shirt']",ProductB,necklace,Spring,boots,BrandC,White,Casual,627
+628,Male,42,middle-aged,Athletic,West,"['pant', 'jacket']",ProductB,watch,Summer,sandals,BrandC,Blue,Formal,628
+629,Female,40,middle-aged,Heavy,North,"['hat', 'pant']",ProductA,necklace,Winter,sandals,BrandA,Green,Formal,629
+630,Male,54,middle-aged,Athletic,East,"['jacket', 'shirt']",ProductA,belt,Autumn,sandals,BrandB,Black,Elegant,630
+631,Other,34,senior,Average,West,"['shirt', 'pant', 'jacket']",ProductB,bracelet,Spring,flats,BrandA,Red,Sporty,631
+632,Other,69,senior,Athletic,East,"['hat', 'shoe']",ProductD,watch,Spring,flats,BrandC,White,Sporty,632
+633,Female,58,senior,Average,South,"['shoe', 'hat', 'jacket']",ProductA,belt,Winter,flats,BrandA,Green,Casual,633
+634,Female,19,middle-aged,Average,West,"['pant', 'jacket', 'shirt']",ProductA,bracelet,Summer,sneakers,BrandC,Blue,Sporty,634
+635,Male,59,middle-aged,Average,North,"['shirt', 'pant', 'jacket', 'hat']",ProductD,watch,Winter,heels,BrandA,Red,Formal,635
+636,Female,65,young,Slim,East,['shirt'],ProductA,necklace,Spring,flats,BrandD,Blue,Casual,636
+637,Male,39,senior,Athletic,North,"['jacket', 'shirt', 'pant']",ProductC,belt,Spring,flats,BrandA,Red,Formal,637
+638,Male,22,middle-aged,Heavy,West,"['shoe', 'pant']",ProductE,necklace,Spring,sneakers,BrandA,Black,Formal,638
+639,Other,64,young,Slim,West,"['pant', 'shirt', 'shoe', 'jacket', 'hat']",ProductC,watch,Winter,flats,BrandA,Red,Formal,639
+640,Other,66,middle-aged,Average,North,"['shoe', 'jacket', 'hat']",ProductA,bracelet,Autumn,sneakers,BrandB,Blue,Formal,640
+641,Female,63,senior,Athletic,East,['jacket'],ProductA,necklace,Spring,sandals,BrandC,Black,Formal,641
+642,Male,16,young,Slim,West,"['pant', 'shoe', 'hat']",ProductA,sunglasses,Spring,sandals,BrandA,Blue,Sporty,642
+643,Other,62,young,Heavy,East,"['hat', 'shoe', 'pant', 'jacket']",ProductC,necklace,Spring,sneakers,BrandB,Red,Sporty,643
+644,Male,17,senior,Athletic,North,"['hat', 'shirt', 'pant']",ProductE,watch,Autumn,sneakers,BrandA,Green,Casual,644
+645,Female,51,middle-aged,Average,East,"['hat', 'pant', 'shoe', 'shirt']",ProductC,watch,Spring,flats,BrandA,Black,Elegant,645
+646,Male,41,senior,Slim,North,"['shirt', 'jacket', 'hat']",ProductB,bracelet,Autumn,heels,BrandA,Black,Formal,646
+647,Other,62,middle-aged,Average,South,"['shoe', 'jacket', 'pant', 'shirt', 'hat']",ProductA,sunglasses,Winter,sandals,BrandD,Blue,Sporty,647
+648,Male,31,young,Athletic,North,"['shirt', 'pant', 'shoe', 'hat']",ProductC,necklace,Spring,flats,BrandB,Red,Formal,648
+649,Male,62,middle-aged,Heavy,South,"['shoe', 'hat', 'pant']",ProductA,necklace,Spring,sneakers,BrandA,Red,Elegant,649
+650,Female,58,young,Heavy,North,"['shirt', 'jacket', 'hat']",ProductB,necklace,Spring,sandals,BrandD,White,Formal,650
+651,Female,28,middle-aged,Slim,North,"['shoe', 'pant', 'hat', 'shirt', 'jacket']",ProductC,sunglasses,Spring,heels,BrandD,Green,Sporty,651
+652,Female,59,young,Slim,West,"['shirt', 'shoe', 'pant']",ProductA,necklace,Spring,boots,BrandD,Green,Formal,652
+653,Female,31,senior,Athletic,West,"['jacket', 'hat', 'shirt', 'pant', 'shoe']",ProductB,bracelet,Spring,flats,BrandB,White,Casual,653
+654,Male,35,middle-aged,Athletic,South,"['shirt', 'jacket']",ProductE,watch,Summer,boots,BrandA,White,Sporty,654
+655,Other,39,young,Heavy,West,"['shirt', 'jacket']",ProductA,belt,Spring,heels,BrandA,Green,Casual,655
+656,Other,18,senior,Athletic,South,"['shirt', 'jacket', 'pant']",ProductA,bracelet,Spring,sandals,BrandD,Blue,Formal,656
+657,Female,16,middle-aged,Slim,East,"['shoe', 'shirt', 'pant']",ProductC,bracelet,Autumn,flats,BrandC,White,Sporty,657
+658,Female,24,middle-aged,Slim,West,['hat'],ProductC,sunglasses,Winter,sneakers,BrandB,Blue,Elegant,658
+659,Male,25,middle-aged,Slim,South,['pant'],ProductA,belt,Winter,sneakers,BrandB,Blue,Sporty,659
+660,Female,24,senior,Slim,South,['shirt'],ProductC,necklace,Spring,sneakers,BrandA,Green,Sporty,660
+661,Male,34,young,Heavy,East,"['jacket', 'shoe', 'hat']",ProductE,bracelet,Winter,flats,BrandB,Red,Formal,661
+662,Female,64,senior,Athletic,North,"['pant', 'shirt', 'shoe', 'jacket', 'hat']",ProductB,bracelet,Winter,boots,BrandD,Green,Sporty,662
+663,Male,35,middle-aged,Slim,East,"['hat', 'shoe', 'shirt', 'jacket']",ProductA,watch,Winter,sneakers,BrandA,White,Elegant,663
+664,Female,64,middle-aged,Average,North,"['shoe', 'hat', 'pant', 'shirt', 'jacket']",ProductB,watch,Winter,boots,BrandB,Red,Elegant,664
+665,Female,29,young,Average,West,"['pant', 'jacket', 'hat']",ProductB,bracelet,Spring,boots,BrandA,White,Elegant,665
+666,Other,21,middle-aged,Heavy,North,"['hat', 'shoe', 'jacket', 'shirt', 'pant']",ProductC,watch,Autumn,heels,BrandA,White,Casual,666
+667,Male,15,middle-aged,Athletic,North,"['pant', 'shoe', 'hat', 'shirt']",ProductC,necklace,Winter,heels,BrandD,Blue,Formal,667
+668,Male,49,young,Athletic,South,"['pant', 'shoe']",ProductB,watch,Autumn,sneakers,BrandB,Red,Casual,668
+669,Female,15,senior,Heavy,North,['shirt'],ProductB,necklace,Winter,sneakers,BrandD,Blue,Sporty,669
+670,Male,45,middle-aged,Slim,East,"['hat', 'pant', 'shoe']",ProductD,belt,Winter,sneakers,BrandC,White,Formal,670
+671,Other,27,middle-aged,Slim,North,"['shoe', 'pant']",ProductC,necklace,Spring,heels,BrandB,Blue,Casual,671
+672,Male,24,young,Heavy,West,"['pant', 'shoe', 'shirt', 'jacket', 'hat']",ProductE,watch,Winter,heels,BrandA,White,Elegant,672
+673,Female,43,young,Athletic,North,"['pant', 'hat', 'shirt', 'jacket', 'shoe']",ProductC,bracelet,Autumn,sneakers,BrandD,Blue,Elegant,673
+674,Male,49,senior,Average,West,"['jacket', 'pant', 'hat', 'shirt']",ProductB,bracelet,Spring,flats,BrandA,Red,Casual,674
+675,Female,57,young,Athletic,East,['hat'],ProductB,watch,Winter,sandals,BrandA,Green,Casual,675
+676,Male,52,senior,Slim,West,"['jacket', 'hat', 'pant']",ProductD,watch,Winter,sandals,BrandD,Black,Casual,676
+677,Other,70,middle-aged,Slim,North,['shoe'],ProductD,watch,Autumn,heels,BrandC,Green,Casual,677
+678,Male,33,senior,Athletic,West,"['shoe', 'shirt', 'pant', 'jacket']",ProductE,sunglasses,Spring,boots,BrandD,Black,Sporty,678
+679,Male,68,senior,Athletic,North,"['jacket', 'hat', 'pant']",ProductC,watch,Winter,boots,BrandB,White,Elegant,679
+680,Female,48,young,Athletic,North,['jacket'],ProductB,necklace,Autumn,sandals,BrandB,Black,Casual,680
+681,Male,70,middle-aged,Average,South,"['hat', 'pant', 'shoe']",ProductB,bracelet,Summer,sandals,BrandD,White,Casual,681
+682,Other,64,middle-aged,Heavy,East,"['shirt', 'pant', 'hat', 'jacket', 'shoe']",ProductC,watch,Summer,flats,BrandC,Red,Formal,682
+683,Male,41,middle-aged,Athletic,South,"['shoe', 'jacket', 'hat']",ProductB,sunglasses,Winter,heels,BrandD,Black,Formal,683
+684,Other,34,young,Athletic,West,"['pant', 'shoe']",ProductA,bracelet,Summer,heels,BrandD,White,Sporty,684
+685,Other,47,senior,Average,South,"['shoe', 'shirt']",ProductE,sunglasses,Spring,sandals,BrandC,Black,Sporty,685
+686,Female,30,senior,Average,East,"['shirt', 'pant', 'shoe', 'jacket', 'hat']",ProductB,sunglasses,Autumn,sandals,BrandD,White,Casual,686
+687,Female,46,senior,Heavy,East,"['shoe', 'jacket', 'hat', 'shirt']",ProductB,watch,Winter,boots,BrandB,Green,Formal,687
+688,Other,55,senior,Slim,South,['shoe'],ProductE,necklace,Winter,sneakers,BrandB,White,Formal,688
+689,Other,27,middle-aged,Heavy,East,"['pant', 'jacket', 'shoe', 'shirt', 'hat']",ProductB,watch,Spring,flats,BrandD,Black,Formal,689
+690,Male,65,middle-aged,Athletic,West,"['hat', 'shoe', 'jacket']",ProductD,sunglasses,Winter,boots,BrandB,Black,Formal,690
+691,Male,43,young,Heavy,East,"['jacket', 'shoe', 'hat', 'pant']",ProductA,necklace,Winter,sneakers,BrandC,Black,Formal,691
+692,Other,54,middle-aged,Heavy,East,"['hat', 'shirt', 'pant']",ProductC,belt,Spring,boots,BrandB,Blue,Sporty,692
+693,Other,45,senior,Heavy,West,"['hat', 'shoe', 'pant', 'shirt', 'jacket']",ProductE,belt,Spring,boots,BrandB,Black,Sporty,693
+694,Female,59,middle-aged,Heavy,South,"['shoe', 'pant', 'jacket', 'shirt']",ProductE,necklace,Summer,boots,BrandA,White,Casual,694
+695,Male,26,young,Athletic,West,['shoe'],ProductC,watch,Autumn,heels,BrandA,Red,Formal,695
+696,Female,20,senior,Average,East,"['shoe', 'pant', 'hat', 'shirt']",ProductE,watch,Summer,flats,BrandC,Green,Formal,696
+697,Female,32,middle-aged,Heavy,West,"['jacket', 'shoe']",ProductE,bracelet,Spring,sneakers,BrandB,Green,Sporty,697
+698,Female,38,senior,Average,South,"['shirt', 'jacket']",ProductA,watch,Spring,flats,BrandC,Red,Elegant,698
+699,Female,57,middle-aged,Average,East,['shirt'],ProductE,watch,Autumn,flats,BrandA,Blue,Elegant,699
+700,Female,40,senior,Slim,North,"['pant', 'shirt', 'shoe', 'jacket', 'hat']",ProductC,belt,Spring,heels,BrandC,Black,Sporty,700
+701,Male,55,senior,Average,South,"['pant', 'shoe', 'hat', 'jacket']",ProductD,belt,Summer,heels,BrandA,Black,Formal,701
+702,Female,48,middle-aged,Slim,East,"['pant', 'jacket', 'shoe', 'hat', 'shirt']",ProductA,belt,Winter,flats,BrandB,White,Casual,702
+703,Male,26,young,Athletic,North,"['shirt', 'pant']",ProductD,watch,Winter,sandals,BrandC,White,Sporty,703
+704,Female,45,senior,Heavy,East,"['jacket', 'shirt', 'hat', 'shoe']",ProductB,sunglasses,Autumn,sneakers,BrandD,Blue,Formal,704
+705,Other,41,middle-aged,Athletic,North,"['pant', 'shoe']",ProductB,necklace,Autumn,heels,BrandA,Black,Formal,705
+706,Female,17,middle-aged,Athletic,North,"['hat', 'jacket', 'pant', 'shoe']",ProductB,bracelet,Autumn,sneakers,BrandB,Red,Elegant,706
+707,Female,57,young,Slim,West,['shirt'],ProductA,bracelet,Spring,boots,BrandB,Blue,Sporty,707
+708,Female,59,young,Athletic,East,['jacket'],ProductE,belt,Summer,sandals,BrandA,Red,Elegant,708
+709,Female,26,middle-aged,Slim,South,"['hat', 'shoe', 'shirt', 'pant', 'jacket']",ProductA,watch,Spring,boots,BrandD,White,Formal,709
+710,Male,61,senior,Average,West,"['jacket', 'shoe', 'hat', 'shirt', 'pant']",ProductE,belt,Spring,sneakers,BrandB,Black,Casual,710
+711,Male,26,young,Average,East,"['shirt', 'shoe']",ProductA,bracelet,Autumn,sneakers,BrandB,Black,Elegant,711
+712,Male,51,middle-aged,Heavy,South,"['pant', 'jacket', 'shoe', 'hat']",ProductB,sunglasses,Summer,flats,BrandD,Blue,Sporty,712
+713,Female,37,middle-aged,Slim,South,"['hat', 'shoe', 'pant', 'shirt', 'jacket']",ProductA,belt,Spring,sneakers,BrandB,Red,Formal,713
+714,Male,51,middle-aged,Average,West,"['shoe', 'shirt', 'hat']",ProductA,bracelet,Summer,flats,BrandD,Red,Elegant,714
+715,Other,46,senior,Athletic,South,"['hat', 'shoe', 'jacket']",ProductD,belt,Summer,heels,BrandA,Red,Formal,715
+716,Female,28,young,Slim,East,['jacket'],ProductE,watch,Winter,flats,BrandB,White,Casual,716
+717,Female,50,young,Slim,South,['pant'],ProductE,sunglasses,Summer,heels,BrandC,Black,Elegant,717
+718,Male,70,middle-aged,Athletic,West,"['jacket', 'hat']",ProductE,necklace,Summer,heels,BrandC,White,Casual,718
+719,Male,27,middle-aged,Slim,East,"['jacket', 'shirt', 'hat', 'shoe', 'pant']",ProductC,belt,Summer,sneakers,BrandD,White,Sporty,719
+720,Male,15,middle-aged,Slim,South,"['shirt', 'jacket', 'shoe']",ProductC,sunglasses,Autumn,sneakers,BrandC,Red,Sporty,720
+721,Female,26,senior,Average,South,"['pant', 'shoe']",ProductD,belt,Summer,boots,BrandC,Blue,Sporty,721
+722,Female,30,senior,Athletic,South,"['shirt', 'jacket', 'shoe']",ProductA,sunglasses,Autumn,sandals,BrandB,Blue,Casual,722
+723,Female,66,middle-aged,Average,West,"['hat', 'shoe', 'shirt', 'jacket']",ProductD,watch,Summer,flats,BrandD,White,Elegant,723
+724,Other,61,middle-aged,Heavy,West,['shirt'],ProductC,belt,Winter,boots,BrandC,Green,Sporty,724
+725,Female,36,middle-aged,Heavy,North,"['shoe', 'shirt']",ProductD,bracelet,Summer,heels,BrandA,White,Sporty,725
+726,Male,55,middle-aged,Average,West,"['shirt', 'jacket']",ProductB,necklace,Spring,heels,BrandB,Green,Sporty,726
+727,Female,47,middle-aged,Heavy,East,"['shirt', 'shoe', 'pant', 'jacket', 'hat']",ProductE,sunglasses,Spring,sandals,BrandD,Red,Elegant,727
+728,Other,49,middle-aged,Average,South,['hat'],ProductE,bracelet,Spring,boots,BrandC,White,Sporty,728
+729,Other,59,middle-aged,Athletic,West,"['pant', 'jacket']",ProductA,bracelet,Spring,boots,BrandA,Red,Sporty,729
+730,Female,67,senior,Average,East,"['hat', 'shoe', 'pant']",ProductC,sunglasses,Summer,flats,BrandB,Blue,Formal,730
+731,Other,29,young,Average,North,"['shoe', 'hat', 'shirt', 'jacket']",ProductE,sunglasses,Autumn,sandals,BrandB,Blue,Casual,731
+732,Female,16,middle-aged,Slim,North,"['shirt', 'hat', 'jacket', 'pant', 'shoe']",ProductA,sunglasses,Summer,flats,BrandD,Red,Formal,732
+733,Female,67,senior,Average,North,"['shirt', 'hat', 'pant', 'jacket', 'shoe']",ProductE,sunglasses,Summer,sandals,BrandD,Green,Casual,733
+734,Female,63,middle-aged,Athletic,North,"['pant', 'shoe', 'hat', 'shirt', 'jacket']",ProductD,sunglasses,Summer,flats,BrandA,Blue,Elegant,734
+735,Female,46,middle-aged,Athletic,North,['jacket'],ProductA,necklace,Spring,sneakers,BrandC,Green,Casual,735
+736,Male,29,middle-aged,Heavy,West,"['shoe', 'pant', 'hat']",ProductA,belt,Autumn,boots,BrandB,Black,Elegant,736
+737,Female,26,middle-aged,Athletic,West,"['hat', 'shirt', 'jacket', 'pant']",ProductB,belt,Summer,sandals,BrandC,Green,Sporty,737
+738,Female,41,middle-aged,Average,West,"['shoe', 'hat', 'shirt']",ProductD,belt,Winter,sneakers,BrandD,Green,Elegant,738
+739,Female,52,middle-aged,Slim,North,"['jacket', 'shoe', 'pant', 'hat']",ProductC,belt,Winter,boots,BrandB,Black,Elegant,739
+740,Female,20,senior,Heavy,North,['pant'],ProductC,sunglasses,Summer,heels,BrandA,Green,Elegant,740
+741,Other,37,middle-aged,Slim,North,"['shoe', 'shirt', 'jacket', 'pant']",ProductA,watch,Summer,sneakers,BrandC,Green,Formal,741
+742,Male,27,senior,Athletic,East,"['shirt', 'hat']",ProductB,watch,Autumn,heels,BrandA,Blue,Formal,742
+743,Female,20,middle-aged,Heavy,South,"['hat', 'shirt', 'jacket', 'pant', 'shoe']",ProductE,belt,Winter,flats,BrandA,Blue,Casual,743
+744,Male,51,middle-aged,Average,North,"['hat', 'shoe', 'shirt', 'jacket', 'pant']",ProductA,watch,Summer,boots,BrandB,Red,Elegant,744
+745,Male,59,young,Slim,East,"['shirt', 'hat', 'jacket']",ProductD,necklace,Autumn,heels,BrandC,Red,Elegant,745
+746,Female,41,young,Slim,West,['hat'],ProductC,belt,Winter,sandals,BrandD,Blue,Elegant,746
+747,Male,43,middle-aged,Athletic,West,"['hat', 'pant']",ProductB,sunglasses,Summer,flats,BrandA,Black,Formal,747
+748,Female,23,middle-aged,Slim,East,"['jacket', 'hat']",ProductB,sunglasses,Autumn,heels,BrandA,White,Elegant,748
+749,Female,31,middle-aged,Athletic,West,"['jacket', 'hat', 'shirt', 'pant', 'shoe']",ProductA,watch,Autumn,flats,BrandD,Blue,Elegant,749
+750,Other,24,middle-aged,Slim,East,['shoe'],ProductC,sunglasses,Autumn,flats,BrandC,White,Sporty,750
+751,Male,37,middle-aged,Heavy,West,['jacket'],ProductC,sunglasses,Autumn,boots,BrandC,Blue,Formal,751
+752,Female,28,middle-aged,Average,East,['shirt'],ProductC,watch,Summer,boots,BrandC,Blue,Formal,752
+753,Female,58,middle-aged,Athletic,North,"['pant', 'shoe', 'shirt', 'hat']",ProductA,belt,Winter,sandals,BrandB,Green,Formal,753
+754,Other,41,senior,Athletic,South,"['shirt', 'shoe', 'jacket', 'hat', 'pant']",ProductE,sunglasses,Autumn,boots,BrandD,White,Elegant,754
+755,Other,42,young,Heavy,North,"['pant', 'shirt', 'jacket']",ProductD,sunglasses,Summer,flats,BrandB,White,Elegant,755
+756,Male,54,senior,Heavy,West,"['pant', 'shirt', 'hat']",ProductA,sunglasses,Summer,heels,BrandC,Green,Formal,756
+757,Female,29,senior,Heavy,West,"['shoe', 'jacket', 'pant', 'shirt']",ProductA,bracelet,Autumn,heels,BrandC,Black,Elegant,757
+758,Male,32,senior,Heavy,West,"['shirt', 'jacket', 'shoe', 'pant', 'hat']",ProductE,bracelet,Summer,sneakers,BrandB,Green,Elegant,758
+759,Male,24,middle-aged,Heavy,South,"['jacket', 'shirt', 'pant', 'shoe']",ProductD,belt,Autumn,sandals,BrandC,Green,Sporty,759
+760,Other,19,senior,Athletic,West,"['jacket', 'hat']",ProductC,sunglasses,Summer,heels,BrandA,White,Sporty,760
+761,Female,56,senior,Average,North,"['shoe', 'hat', 'jacket', 'pant']",ProductD,necklace,Winter,sandals,BrandD,Blue,Formal,761
+762,Male,56,middle-aged,Average,West,"['jacket', 'hat', 'shoe', 'shirt', 'pant']",ProductC,watch,Winter,sandals,BrandB,Green,Casual,762
+763,Male,48,senior,Athletic,South,"['jacket', 'shoe']",ProductE,sunglasses,Spring,heels,BrandC,Blue,Formal,763
+764,Male,53,senior,Slim,North,"['hat', 'pant', 'jacket', 'shirt']",ProductA,sunglasses,Winter,heels,BrandD,Red,Sporty,764
+765,Other,33,senior,Average,West,"['shoe', 'pant', 'jacket', 'shirt']",ProductA,sunglasses,Spring,sandals,BrandD,White,Casual,765
+766,Other,29,senior,Athletic,South,"['shirt', 'hat', 'jacket', 'pant']",ProductE,bracelet,Summer,boots,BrandB,Red,Casual,766
+767,Other,58,middle-aged,Athletic,South,['jacket'],ProductE,necklace,Spring,boots,BrandD,Black,Formal,767
+768,Male,49,middle-aged,Slim,East,"['pant', 'shoe', 'jacket', 'hat']",ProductA,watch,Winter,heels,BrandA,Green,Sporty,768
+769,Female,39,young,Slim,East,['shoe'],ProductC,necklace,Summer,heels,BrandD,Blue,Casual,769
+770,Male,42,senior,Slim,West,"['pant', 'shirt', 'shoe', 'jacket']",ProductD,sunglasses,Autumn,flats,BrandC,Black,Sporty,770
+771,Male,63,senior,Average,East,"['hat', 'jacket', 'shirt']",ProductB,watch,Spring,sneakers,BrandC,Black,Casual,771
+772,Other,49,senior,Athletic,North,"['shirt', 'hat']",ProductE,watch,Summer,boots,BrandA,Green,Sporty,772
+773,Female,23,middle-aged,Slim,North,"['hat', 'shoe', 'pant', 'jacket']",ProductC,bracelet,Spring,sandals,BrandD,Blue,Elegant,773
+774,Other,32,senior,Heavy,East,"['pant', 'shoe']",ProductB,watch,Summer,sandals,BrandC,Red,Elegant,774
+775,Female,61,senior,Heavy,West,['pant'],ProductE,sunglasses,Spring,boots,BrandB,Red,Elegant,775
+776,Female,23,senior,Heavy,South,"['pant', 'shoe']",ProductA,sunglasses,Winter,sandals,BrandD,Black,Sporty,776
+777,Male,21,young,Slim,North,"['shirt', 'shoe', 'pant', 'jacket', 'hat']",ProductD,belt,Autumn,boots,BrandB,White,Casual,777
+778,Other,41,middle-aged,Athletic,West,"['jacket', 'shirt', 'shoe']",ProductB,bracelet,Summer,boots,BrandC,White,Elegant,778
+779,Other,52,young,Average,East,"['hat', 'shirt', 'pant']",ProductB,bracelet,Autumn,boots,BrandD,Black,Formal,779
+780,Male,46,young,Average,North,"['shirt', 'jacket', 'pant']",ProductD,sunglasses,Autumn,sandals,BrandA,Green,Elegant,780
+781,Other,18,senior,Athletic,North,"['hat', 'shoe']",ProductA,belt,Summer,flats,BrandA,Blue,Formal,781
+782,Other,20,senior,Heavy,East,"['pant', 'shoe', 'shirt', 'jacket']",ProductB,belt,Autumn,sneakers,BrandC,White,Casual,782
+783,Female,37,middle-aged,Average,South,"['shoe', 'hat', 'shirt', 'jacket', 'pant']",ProductD,sunglasses,Winter,boots,BrandD,Blue,Elegant,783
+784,Other,53,middle-aged,Athletic,North,"['hat', 'shirt', 'shoe', 'jacket']",ProductD,bracelet,Spring,flats,BrandD,Red,Sporty,784
+785,Female,57,middle-aged,Athletic,West,"['shoe', 'shirt']",ProductA,necklace,Winter,flats,BrandD,Black,Elegant,785
+786,Male,27,senior,Slim,North,"['pant', 'shirt', 'shoe', 'jacket']",ProductD,belt,Winter,sneakers,BrandB,Black,Sporty,786
+787,Male,19,middle-aged,Average,North,"['jacket', 'hat', 'shoe', 'shirt', 'pant']",ProductA,necklace,Summer,sandals,BrandA,Green,Casual,787
+788,Female,49,middle-aged,Athletic,West,"['hat', 'jacket']",ProductC,bracelet,Autumn,boots,BrandC,Blue,Elegant,788
+789,Male,18,senior,Average,North,"['shirt', 'jacket']",ProductC,belt,Winter,boots,BrandB,White,Casual,789
+790,Other,38,middle-aged,Heavy,North,"['shoe', 'hat', 'jacket', 'pant', 'shirt']",ProductA,necklace,Summer,boots,BrandA,Black,Casual,790
+791,Male,27,middle-aged,Heavy,East,"['hat', 'shoe']",ProductC,belt,Spring,sneakers,BrandD,Blue,Elegant,791
+792,Female,25,middle-aged,Heavy,North,"['shirt', 'shoe']",ProductB,watch,Summer,sneakers,BrandB,Red,Formal,792
+793,Female,33,middle-aged,Average,North,"['pant', 'shoe', 'jacket', 'shirt']",ProductB,belt,Autumn,sandals,BrandD,Black,Casual,793
+794,Male,56,young,Average,North,"['shoe', 'pant', 'shirt', 'jacket', 'hat']",ProductE,bracelet,Summer,flats,BrandC,Red,Casual,794
+795,Other,33,senior,Heavy,South,"['hat', 'jacket', 'shirt']",ProductD,bracelet,Summer,heels,BrandA,Red,Formal,795
+796,Male,70,middle-aged,Average,East,"['hat', 'jacket', 'shirt', 'shoe', 'pant']",ProductE,belt,Summer,heels,BrandB,Green,Elegant,796
+797,Male,20,senior,Heavy,South,"['shirt', 'pant', 'jacket', 'hat']",ProductB,bracelet,Summer,boots,BrandD,Green,Casual,797
+798,Female,41,middle-aged,Slim,North,"['shoe', 'pant', 'jacket', 'shirt', 'hat']",ProductD,watch,Winter,sneakers,BrandD,Black,Elegant,798
+799,Other,24,middle-aged,Heavy,South,"['shirt', 'pant', 'hat', 'shoe', 'jacket']",ProductD,watch,Winter,heels,BrandC,White,Elegant,799
+800,Male,39,middle-aged,Heavy,South,['jacket'],ProductB,watch,Winter,heels,BrandC,Blue,Casual,800
+801,Other,15,senior,Athletic,East,['hat'],ProductD,necklace,Summer,sneakers,BrandA,Green,Elegant,801
+802,Other,31,middle-aged,Average,West,"['jacket', 'shirt']",ProductA,sunglasses,Winter,flats,BrandA,Green,Casual,802
+803,Female,48,young,Average,East,"['shirt', 'jacket', 'pant', 'shoe']",ProductE,sunglasses,Autumn,boots,BrandA,Red,Formal,803
+804,Male,27,middle-aged,Heavy,North,"['hat', 'shirt', 'jacket']",ProductE,bracelet,Autumn,sneakers,BrandC,White,Casual,804
+805,Male,26,senior,Athletic,West,"['shoe', 'hat', 'pant', 'jacket', 'shirt']",ProductB,necklace,Winter,heels,BrandC,Green,Elegant,805
+806,Male,56,young,Athletic,East,['shoe'],ProductA,sunglasses,Spring,heels,BrandB,Green,Elegant,806
+807,Other,34,young,Slim,East,"['shoe', 'hat']",ProductD,necklace,Summer,heels,BrandA,Red,Sporty,807
+808,Male,25,senior,Heavy,West,['shoe'],ProductE,belt,Autumn,sneakers,BrandD,Green,Casual,808
+809,Other,70,young,Heavy,West,"['shoe', 'hat', 'pant', 'jacket', 'shirt']",ProductA,sunglasses,Autumn,boots,BrandD,Green,Formal,809
+810,Female,38,young,Slim,South,"['shirt', 'hat', 'jacket', 'pant']",ProductD,belt,Summer,sneakers,BrandB,Red,Sporty,810
+811,Male,28,senior,Athletic,South,"['jacket', 'hat']",ProductB,watch,Autumn,boots,BrandC,Red,Formal,811
+812,Male,57,young,Athletic,North,"['pant', 'shirt', 'shoe', 'hat']",ProductC,necklace,Spring,boots,BrandA,Blue,Formal,812
+813,Other,61,middle-aged,Slim,South,"['pant', 'hat', 'jacket', 'shoe']",ProductA,necklace,Spring,heels,BrandC,Red,Formal,813
+814,Other,61,senior,Slim,South,"['jacket', 'shoe', 'hat']",ProductC,sunglasses,Autumn,flats,BrandC,Green,Formal,814
+815,Other,54,senior,Athletic,South,"['shirt', 'shoe', 'jacket', 'hat']",ProductB,belt,Winter,sneakers,BrandD,Green,Elegant,815
+816,Female,28,middle-aged,Slim,East,"['hat', 'shirt', 'jacket']",ProductA,sunglasses,Summer,sandals,BrandA,Red,Elegant,816
+817,Other,23,middle-aged,Heavy,North,['jacket'],ProductC,belt,Winter,boots,BrandC,Black,Elegant,817
+818,Other,35,young,Athletic,North,"['pant', 'shirt', 'hat']",ProductE,watch,Winter,sneakers,BrandB,Red,Casual,818
+819,Female,16,senior,Average,West,['jacket'],ProductE,necklace,Autumn,boots,BrandB,Blue,Casual,819
+820,Male,17,senior,Average,East,"['jacket', 'hat']",ProductA,sunglasses,Autumn,sandals,BrandA,Black,Sporty,820
+821,Male,56,middle-aged,Slim,South,['hat'],ProductD,belt,Winter,sandals,BrandD,Green,Elegant,821
+822,Female,44,middle-aged,Heavy,South,"['hat', 'pant', 'jacket', 'shoe', 'shirt']",ProductC,sunglasses,Autumn,heels,BrandD,Black,Elegant,822
+823,Female,50,young,Average,East,['hat'],ProductB,necklace,Summer,boots,BrandB,White,Casual,823
+824,Other,19,senior,Athletic,East,['shirt'],ProductD,belt,Summer,sandals,BrandB,White,Casual,824
+825,Male,30,senior,Athletic,West,"['hat', 'pant', 'jacket']",ProductB,belt,Spring,sneakers,BrandA,Blue,Formal,825
+826,Other,62,middle-aged,Heavy,North,"['shoe', 'shirt']",ProductC,necklace,Spring,sneakers,BrandD,Red,Formal,826
+827,Other,57,middle-aged,Athletic,West,"['shirt', 'shoe', 'jacket', 'hat']",ProductA,necklace,Winter,sneakers,BrandA,Black,Casual,827
+828,Female,70,middle-aged,Slim,North,['shoe'],ProductC,necklace,Summer,sandals,BrandC,Black,Formal,828
+829,Female,32,middle-aged,Heavy,South,"['pant', 'shirt', 'hat', 'jacket', 'shoe']",ProductE,necklace,Autumn,sandals,BrandC,White,Formal,829
+830,Female,59,senior,Heavy,North,"['shoe', 'pant']",ProductC,belt,Spring,flats,BrandC,Blue,Elegant,830
+831,Other,65,middle-aged,Average,North,['pant'],ProductE,sunglasses,Autumn,flats,BrandC,Black,Casual,831
+832,Male,26,senior,Athletic,West,"['shirt', 'hat', 'pant', 'shoe']",ProductD,watch,Spring,sandals,BrandB,Green,Formal,832
+833,Female,51,senior,Athletic,North,"['hat', 'pant', 'shoe', 'shirt']",ProductD,bracelet,Winter,sandals,BrandA,White,Formal,833
+834,Male,31,young,Average,South,"['shoe', 'hat', 'shirt', 'jacket']",ProductD,belt,Winter,sandals,BrandB,Blue,Sporty,834
+835,Male,26,middle-aged,Athletic,East,"['shirt', 'jacket', 'shoe']",ProductD,watch,Autumn,sneakers,BrandA,White,Formal,835
+836,Female,29,middle-aged,Slim,South,['jacket'],ProductC,necklace,Autumn,heels,BrandD,White,Sporty,836
+837,Male,57,middle-aged,Heavy,North,"['pant', 'shoe', 'jacket', 'hat', 'shirt']",ProductC,necklace,Winter,sneakers,BrandD,White,Sporty,837
+838,Female,58,senior,Average,East,"['hat', 'shirt', 'jacket', 'shoe']",ProductE,necklace,Summer,heels,BrandA,White,Formal,838
+839,Other,43,senior,Athletic,East,"['jacket', 'shoe', 'hat', 'shirt']",ProductC,belt,Autumn,sandals,BrandD,White,Elegant,839
+840,Other,54,middle-aged,Average,East,"['pant', 'shirt']",ProductB,bracelet,Spring,sandals,BrandC,White,Sporty,840
+841,Male,29,senior,Slim,South,"['shoe', 'pant']",ProductA,belt,Summer,boots,BrandA,Green,Casual,841
+842,Male,49,middle-aged,Heavy,South,"['jacket', 'pant']",ProductB,bracelet,Summer,sandals,BrandD,White,Casual,842
+843,Male,27,middle-aged,Average,North,"['shirt', 'pant', 'shoe', 'jacket']",ProductB,necklace,Autumn,sandals,BrandA,Black,Formal,843
+844,Other,52,senior,Heavy,West,"['hat', 'jacket', 'shirt', 'pant']",ProductD,belt,Spring,heels,BrandA,Black,Elegant,844
+845,Female,57,middle-aged,Slim,East,['jacket'],ProductC,necklace,Winter,sandals,BrandC,Green,Casual,845
+846,Male,52,middle-aged,Slim,West,"['shoe', 'jacket', 'shirt']",ProductA,sunglasses,Spring,sandals,BrandB,Blue,Elegant,846
+847,Male,31,middle-aged,Average,East,"['shoe', 'hat', 'shirt']",ProductA,bracelet,Spring,flats,BrandD,Blue,Elegant,847
+848,Female,22,young,Slim,North,['shirt'],ProductB,belt,Spring,boots,BrandC,Red,Elegant,848
+849,Other,20,young,Athletic,East,"['jacket', 'hat']",ProductD,belt,Autumn,sandals,BrandB,Red,Sporty,849
+850,Male,33,middle-aged,Average,East,"['shirt', 'hat']",ProductD,belt,Autumn,heels,BrandA,Green,Casual,850
+851,Female,35,young,Average,North,"['pant', 'hat']",ProductE,necklace,Summer,sneakers,BrandB,White,Sporty,851
+852,Other,53,senior,Athletic,South,['shoe'],ProductE,watch,Winter,heels,BrandA,White,Sporty,852
+853,Female,48,middle-aged,Heavy,South,"['jacket', 'pant', 'shoe', 'hat', 'shirt']",ProductB,sunglasses,Autumn,flats,BrandC,Black,Formal,853
+854,Other,19,middle-aged,Average,North,"['pant', 'shirt']",ProductC,watch,Autumn,sneakers,BrandB,Black,Elegant,854
+855,Female,61,senior,Heavy,East,"['pant', 'shirt']",ProductC,watch,Winter,sneakers,BrandA,White,Sporty,855
+856,Other,30,middle-aged,Athletic,East,"['pant', 'jacket']",ProductB,bracelet,Summer,sneakers,BrandB,Blue,Casual,856
+857,Female,67,middle-aged,Slim,West,"['shirt', 'pant', 'shoe']",ProductD,bracelet,Spring,sandals,BrandD,Green,Casual,857
+858,Male,26,young,Average,East,"['shirt', 'pant', 'shoe']",ProductA,necklace,Winter,sneakers,BrandD,Blue,Casual,858
+859,Other,33,middle-aged,Heavy,South,"['shirt', 'shoe']",ProductB,bracelet,Summer,sandals,BrandD,White,Casual,859
+860,Female,41,senior,Average,East,"['shoe', 'jacket', 'pant']",ProductB,watch,Spring,boots,BrandC,White,Formal,860
+861,Male,43,senior,Heavy,South,"['shoe', 'pant']",ProductB,necklace,Spring,boots,BrandC,Red,Casual,861
+862,Other,22,senior,Slim,East,"['shirt', 'hat', 'shoe']",ProductD,belt,Spring,heels,BrandB,Blue,Sporty,862
+863,Male,59,senior,Heavy,North,"['pant', 'hat', 'shoe', 'jacket', 'shirt']",ProductC,belt,Spring,sneakers,BrandB,Blue,Casual,863
+864,Other,22,middle-aged,Athletic,North,"['jacket', 'shoe', 'pant']",ProductA,necklace,Summer,sneakers,BrandA,Red,Sporty,864
+865,Male,63,senior,Slim,West,"['shirt', 'shoe', 'jacket', 'pant']",ProductC,sunglasses,Winter,flats,BrandC,Blue,Elegant,865
+866,Other,41,middle-aged,Heavy,West,"['shoe', 'hat', 'shirt', 'pant']",ProductB,watch,Winter,boots,BrandC,Green,Formal,866
+867,Female,38,middle-aged,Athletic,East,['jacket'],ProductC,belt,Summer,boots,BrandA,White,Sporty,867
+868,Other,60,middle-aged,Heavy,West,"['shirt', 'pant']",ProductC,bracelet,Winter,flats,BrandB,Red,Elegant,868
+869,Female,65,middle-aged,Heavy,West,"['pant', 'jacket', 'shoe']",ProductD,belt,Spring,sandals,BrandA,Blue,Casual,869
+870,Other,57,middle-aged,Athletic,North,"['jacket', 'shirt', 'shoe', 'pant']",ProductE,sunglasses,Winter,heels,BrandB,Green,Formal,870
+871,Female,38,senior,Slim,North,"['pant', 'shirt', 'shoe', 'jacket', 'hat']",ProductD,watch,Autumn,heels,BrandD,Green,Sporty,871
+872,Female,69,middle-aged,Slim,North,['shirt'],ProductE,bracelet,Spring,heels,BrandC,Blue,Elegant,872
+873,Female,46,middle-aged,Average,North,"['shirt', 'shoe', 'hat', 'pant', 'jacket']",ProductE,belt,Summer,sandals,BrandD,White,Formal,873
+874,Male,37,middle-aged,Slim,South,"['jacket', 'shoe', 'pant', 'shirt', 'hat']",ProductB,necklace,Autumn,flats,BrandB,Blue,Casual,874
+875,Male,48,middle-aged,Athletic,West,"['pant', 'shoe', 'hat']",ProductD,bracelet,Winter,heels,BrandC,Black,Casual,875
+876,Other,21,young,Average,North,['shoe'],ProductD,bracelet,Spring,boots,BrandC,Red,Sporty,876
+877,Other,21,young,Slim,East,"['jacket', 'hat']",ProductB,sunglasses,Autumn,sandals,BrandD,White,Formal,877
+878,Male,36,young,Slim,South,"['jacket', 'pant', 'hat']",ProductE,necklace,Spring,sandals,BrandC,Black,Sporty,878
+879,Male,53,young,Heavy,South,"['shoe', 'shirt', 'hat', 'pant']",ProductC,necklace,Summer,sandals,BrandC,White,Formal,879
+880,Other,19,middle-aged,Average,South,"['shoe', 'hat', 'jacket']",ProductC,belt,Spring,sandals,BrandC,Red,Formal,880
+881,Male,48,middle-aged,Athletic,South,"['pant', 'shirt', 'hat', 'shoe', 'jacket']",ProductC,watch,Winter,flats,BrandD,Red,Formal,881
+882,Male,52,young,Average,East,['shoe'],ProductE,sunglasses,Spring,boots,BrandB,Black,Elegant,882
+883,Female,31,middle-aged,Heavy,East,"['shirt', 'hat', 'pant', 'jacket', 'shoe']",ProductA,belt,Summer,flats,BrandB,Black,Formal,883
+884,Male,68,young,Average,South,"['jacket', 'shirt', 'pant']",ProductB,watch,Spring,sneakers,BrandA,Red,Formal,884
+885,Other,53,middle-aged,Heavy,South,"['hat', 'shirt', 'pant', 'shoe']",ProductE,belt,Autumn,sneakers,BrandB,Blue,Elegant,885
+886,Female,50,young,Heavy,East,"['shirt', 'hat', 'jacket', 'pant']",ProductC,belt,Spring,sandals,BrandB,Black,Elegant,886
+887,Other,54,senior,Heavy,East,"['pant', 'shirt']",ProductE,belt,Spring,sneakers,BrandA,Black,Casual,887
+888,Female,27,middle-aged,Slim,North,"['jacket', 'shoe', 'pant']",ProductA,watch,Autumn,flats,BrandD,Black,Casual,888
+889,Other,55,young,Average,South,['jacket'],ProductE,sunglasses,Summer,sandals,BrandD,White,Casual,889
+890,Female,69,senior,Heavy,East,"['jacket', 'pant', 'hat', 'shirt']",ProductD,necklace,Spring,boots,BrandB,White,Elegant,890
+891,Male,32,middle-aged,Average,North,"['pant', 'shoe']",ProductC,necklace,Summer,heels,BrandA,Red,Casual,891
+892,Male,49,middle-aged,Slim,East,['jacket'],ProductD,bracelet,Summer,sandals,BrandA,Red,Formal,892
+893,Male,16,senior,Heavy,East,"['hat', 'shirt', 'shoe', 'jacket', 'pant']",ProductE,belt,Spring,flats,BrandD,White,Casual,893
+894,Female,17,senior,Average,North,"['shoe', 'jacket', 'hat']",ProductC,belt,Autumn,heels,BrandC,Red,Sporty,894
+895,Other,61,middle-aged,Slim,North,"['hat', 'shoe', 'pant', 'jacket']",ProductE,necklace,Winter,flats,BrandA,Red,Casual,895
+896,Male,53,middle-aged,Average,South,"['hat', 'pant', 'jacket', 'shoe', 'shirt']",ProductC,bracelet,Autumn,sandals,BrandD,Red,Elegant,896
+897,Other,26,senior,Athletic,West,['shoe'],ProductD,belt,Summer,flats,BrandB,White,Formal,897
+898,Other,30,middle-aged,Heavy,South,['pant'],ProductD,watch,Spring,sneakers,BrandC,Green,Elegant,898
+899,Other,67,middle-aged,Slim,South,"['hat', 'shirt', 'shoe', 'jacket']",ProductD,bracelet,Summer,sneakers,BrandD,Blue,Casual,899
+900,Other,66,middle-aged,Heavy,East,"['hat', 'shoe', 'pant']",ProductA,watch,Autumn,sandals,BrandD,Blue,Casual,900
+901,Male,69,senior,Athletic,East,"['jacket', 'shirt']",ProductA,watch,Autumn,boots,BrandA,Red,Sporty,901
+902,Male,69,young,Average,West,['hat'],ProductC,sunglasses,Summer,heels,BrandD,Black,Formal,902
+903,Other,27,senior,Athletic,South,"['jacket', 'shoe', 'shirt', 'pant', 'hat']",ProductD,sunglasses,Winter,flats,BrandC,Black,Elegant,903
+904,Male,26,middle-aged,Heavy,South,"['jacket', 'pant']",ProductC,belt,Autumn,boots,BrandA,Green,Elegant,904
+905,Female,62,senior,Average,East,"['jacket', 'pant', 'hat', 'shirt', 'shoe']",ProductB,watch,Spring,sneakers,BrandB,Black,Casual,905
+906,Other,56,middle-aged,Average,East,"['hat', 'shoe']",ProductA,bracelet,Spring,flats,BrandB,Blue,Sporty,906
+907,Other,34,middle-aged,Heavy,South,"['hat', 'shirt', 'shoe', 'pant', 'jacket']",ProductB,necklace,Autumn,boots,BrandA,Blue,Casual,907
+908,Other,30,young,Athletic,East,"['shoe', 'pant', 'shirt', 'hat', 'jacket']",ProductB,watch,Winter,sneakers,BrandB,Green,Casual,908
+909,Male,53,senior,Athletic,South,"['hat', 'jacket', 'shirt']",ProductD,bracelet,Winter,boots,BrandD,Black,Sporty,909
+910,Male,64,senior,Athletic,South,"['hat', 'shoe', 'jacket', 'shirt', 'pant']",ProductC,belt,Summer,boots,BrandB,Blue,Elegant,910
+911,Female,50,senior,Athletic,North,"['hat', 'jacket']",ProductA,belt,Spring,sneakers,BrandD,Red,Formal,911
+912,Other,43,senior,Slim,East,"['jacket', 'pant', 'shirt']",ProductB,watch,Summer,heels,BrandD,Black,Sporty,912
+913,Male,27,senior,Heavy,North,"['pant', 'shoe', 'jacket', 'hat', 'shirt']",ProductC,bracelet,Autumn,flats,BrandD,Blue,Formal,913
+914,Other,19,senior,Slim,North,"['shirt', 'jacket', 'hat', 'shoe']",ProductE,watch,Spring,sneakers,BrandB,Red,Elegant,914
+915,Female,36,senior,Average,North,"['pant', 'shirt']",ProductE,belt,Spring,flats,BrandC,Blue,Formal,915
+916,Male,34,senior,Athletic,East,"['hat', 'shirt', 'shoe', 'pant']",ProductE,belt,Spring,sandals,BrandB,Black,Elegant,916
+917,Female,54,young,Average,South,"['hat', 'shoe', 'jacket']",ProductC,bracelet,Autumn,flats,BrandC,Red,Formal,917
+918,Female,20,senior,Athletic,West,"['shoe', 'pant', 'hat']",ProductA,sunglasses,Winter,sandals,BrandA,Black,Formal,918
+919,Female,70,middle-aged,Heavy,North,['jacket'],ProductD,watch,Winter,boots,BrandD,Black,Formal,919
+920,Male,31,senior,Average,East,"['jacket', 'hat', 'shirt']",ProductB,belt,Autumn,boots,BrandD,Green,Casual,920
+921,Other,23,senior,Heavy,West,"['shirt', 'jacket', 'shoe']",ProductB,bracelet,Spring,flats,BrandA,Green,Formal,921
+922,Female,67,young,Average,West,"['pant', 'shoe']",ProductA,bracelet,Winter,sneakers,BrandC,Green,Casual,922
+923,Male,45,middle-aged,Average,North,"['shirt', 'jacket']",ProductE,belt,Autumn,sneakers,BrandC,Blue,Casual,923
+924,Female,50,middle-aged,Heavy,North,['jacket'],ProductA,sunglasses,Summer,sneakers,BrandA,Red,Elegant,924
+925,Female,56,senior,Heavy,South,['shoe'],ProductA,bracelet,Spring,sandals,BrandB,Black,Elegant,925
+926,Other,63,middle-aged,Athletic,North,"['shoe', 'hat', 'jacket', 'pant', 'shirt']",ProductA,watch,Summer,boots,BrandA,Red,Sporty,926
+927,Female,24,senior,Average,East,"['shoe', 'shirt']",ProductE,necklace,Winter,heels,BrandB,Red,Elegant,927
+928,Male,49,senior,Heavy,North,"['hat', 'pant']",ProductD,belt,Summer,flats,BrandA,Black,Elegant,928
+929,Male,47,senior,Average,West,"['hat', 'jacket', 'pant']",ProductA,necklace,Summer,sneakers,BrandB,Red,Formal,929
+930,Other,31,senior,Average,East,"['jacket', 'shoe', 'pant']",ProductD,bracelet,Spring,sneakers,BrandD,Black,Sporty,930
+931,Female,58,middle-aged,Slim,North,['shoe'],ProductA,belt,Spring,heels,BrandA,Red,Elegant,931
+932,Female,15,senior,Heavy,South,"['shirt', 'jacket']",ProductA,bracelet,Winter,heels,BrandC,Green,Sporty,932
+933,Other,19,senior,Athletic,South,['jacket'],ProductD,watch,Summer,boots,BrandB,Green,Sporty,933
+934,Male,41,senior,Average,East,"['jacket', 'shirt', 'shoe', 'pant', 'hat']",ProductE,necklace,Summer,heels,BrandC,White,Casual,934
+935,Female,59,middle-aged,Slim,North,"['pant', 'shoe']",ProductE,necklace,Winter,sneakers,BrandB,Red,Casual,935
+936,Female,58,middle-aged,Average,East,"['hat', 'jacket']",ProductC,sunglasses,Winter,boots,BrandD,Green,Sporty,936
+937,Other,23,senior,Heavy,North,"['shoe', 'pant', 'jacket', 'shirt', 'hat']",ProductC,belt,Summer,heels,BrandD,White,Sporty,937
+938,Female,20,young,Heavy,West,"['hat', 'jacket', 'pant', 'shoe']",ProductB,necklace,Spring,heels,BrandC,White,Casual,938
+939,Male,58,middle-aged,Heavy,South,['hat'],ProductC,belt,Autumn,sneakers,BrandB,White,Sporty,939
+940,Other,29,middle-aged,Slim,South,"['jacket', 'pant']",ProductB,belt,Summer,sandals,BrandB,Red,Casual,940
+941,Other,46,young,Slim,North,"['jacket', 'shoe', 'hat']",ProductD,necklace,Autumn,flats,BrandA,Green,Casual,941
+942,Other,56,middle-aged,Average,South,['hat'],ProductE,sunglasses,Autumn,boots,BrandC,White,Formal,942
+943,Other,32,senior,Heavy,South,"['pant', 'hat', 'jacket', 'shirt']",ProductE,necklace,Winter,flats,BrandD,Red,Casual,943
+944,Male,58,middle-aged,Average,West,"['hat', 'shoe', 'jacket', 'shirt']",ProductC,necklace,Autumn,boots,BrandD,Black,Casual,944
+945,Male,52,middle-aged,Athletic,North,"['shoe', 'shirt', 'jacket', 'hat']",ProductC,belt,Winter,boots,BrandA,White,Sporty,945
+946,Female,47,middle-aged,Heavy,West,"['hat', 'jacket', 'shirt', 'pant', 'shoe']",ProductC,watch,Winter,sneakers,BrandC,Blue,Elegant,946
+947,Other,47,young,Heavy,South,"['jacket', 'pant', 'shoe']",ProductD,watch,Autumn,boots,BrandC,White,Elegant,947
+948,Female,28,middle-aged,Athletic,East,"['pant', 'hat', 'shoe', 'jacket']",ProductC,watch,Spring,heels,BrandC,Green,Formal,948
+949,Male,59,senior,Slim,North,"['shirt', 'jacket', 'hat']",ProductE,belt,Summer,boots,BrandC,Green,Formal,949
+950,Male,42,senior,Heavy,South,"['pant', 'hat', 'shirt', 'jacket']",ProductC,necklace,Spring,sneakers,BrandB,Green,Sporty,950
+951,Other,16,senior,Slim,East,"['shirt', 'shoe', 'pant', 'jacket', 'hat']",ProductA,sunglasses,Autumn,heels,BrandB,Red,Casual,951
+952,Other,34,middle-aged,Average,North,"['shirt', 'hat', 'pant', 'jacket', 'shoe']",ProductE,sunglasses,Winter,flats,BrandD,Red,Formal,952
+953,Male,54,senior,Athletic,North,['hat'],ProductD,belt,Summer,flats,BrandB,Green,Elegant,953
+954,Female,42,middle-aged,Average,South,"['shirt', 'jacket', 'shoe', 'hat', 'pant']",ProductE,belt,Autumn,sneakers,BrandA,Green,Formal,954
+955,Female,64,young,Heavy,West,"['shoe', 'jacket', 'shirt', 'pant', 'hat']",ProductC,bracelet,Winter,sneakers,BrandA,Green,Sporty,955
+956,Male,50,middle-aged,Heavy,East,['shoe'],ProductA,watch,Winter,sneakers,BrandA,Black,Elegant,956
+957,Female,22,young,Average,South,"['shirt', 'jacket', 'hat']",ProductE,bracelet,Winter,sandals,BrandD,Red,Casual,957
+958,Male,70,middle-aged,Slim,West,['jacket'],ProductA,necklace,Spring,sandals,BrandD,Green,Sporty,958
+959,Male,23,senior,Slim,South,"['hat', 'jacket', 'shoe', 'shirt', 'pant']",ProductB,necklace,Autumn,sneakers,BrandD,Blue,Formal,959
+960,Male,48,young,Athletic,South,"['pant', 'shirt', 'hat']",ProductE,bracelet,Summer,flats,BrandC,Red,Casual,960
+961,Other,38,middle-aged,Athletic,North,"['hat', 'pant']",ProductE,watch,Spring,heels,BrandA,Black,Formal,961
+962,Other,45,senior,Slim,North,['shoe'],ProductE,bracelet,Summer,flats,BrandC,Blue,Sporty,962
+963,Other,39,senior,Average,North,"['shirt', 'pant', 'hat', 'jacket', 'shoe']",ProductA,watch,Autumn,flats,BrandD,Blue,Sporty,963
+964,Other,49,senior,Heavy,West,"['pant', 'hat', 'jacket']",ProductC,belt,Autumn,heels,BrandB,Green,Sporty,964
+965,Male,51,senior,Heavy,East,"['jacket', 'pant', 'hat', 'shoe', 'shirt']",ProductE,belt,Winter,boots,BrandB,Blue,Casual,965
+966,Other,50,middle-aged,Heavy,South,['jacket'],ProductC,bracelet,Summer,sneakers,BrandC,White,Casual,966
+967,Male,44,young,Slim,South,"['hat', 'shoe', 'pant']",ProductE,belt,Summer,heels,BrandD,Blue,Formal,967
+968,Other,38,senior,Average,North,"['jacket', 'hat', 'shoe', 'shirt']",ProductB,bracelet,Summer,boots,BrandA,Black,Elegant,968
+969,Female,43,senior,Slim,North,"['pant', 'jacket']",ProductD,belt,Summer,flats,BrandB,Blue,Formal,969
+970,Male,68,middle-aged,Slim,South,['hat'],ProductA,watch,Winter,sneakers,BrandC,White,Formal,970
+971,Female,69,young,Slim,East,"['pant', 'shoe', 'shirt']",ProductB,bracelet,Summer,sandals,BrandD,Black,Sporty,971
+972,Male,65,middle-aged,Slim,East,"['hat', 'shoe', 'pant', 'jacket', 'shirt']",ProductA,necklace,Autumn,flats,BrandC,Blue,Casual,972
+973,Male,51,middle-aged,Athletic,North,['pant'],ProductC,necklace,Spring,sandals,BrandA,White,Formal,973
+974,Other,21,middle-aged,Slim,South,"['shoe', 'pant', 'shirt']",ProductA,sunglasses,Summer,flats,BrandD,White,Casual,974
+975,Other,65,senior,Heavy,West,"['pant', 'jacket']",ProductE,belt,Autumn,flats,BrandB,Blue,Formal,975
+976,Other,45,young,Average,East,['pant'],ProductD,bracelet,Summer,heels,BrandA,Blue,Formal,976
+977,Other,55,middle-aged,Average,East,"['shirt', 'jacket', 'pant']",ProductA,necklace,Spring,sandals,BrandC,Black,Elegant,977
+978,Female,22,senior,Slim,East,"['jacket', 'pant', 'shoe']",ProductC,bracelet,Summer,boots,BrandC,White,Sporty,978
+979,Male,17,senior,Slim,West,"['pant', 'jacket', 'shirt', 'hat']",ProductD,bracelet,Summer,sandals,BrandA,White,Sporty,979
+980,Female,57,senior,Athletic,South,"['hat', 'jacket', 'shirt']",ProductA,belt,Winter,heels,BrandA,White,Elegant,980
+981,Male,40,middle-aged,Athletic,West,"['pant', 'shoe', 'shirt', 'jacket']",ProductD,sunglasses,Winter,sneakers,BrandB,White,Casual,981
+982,Male,37,middle-aged,Average,South,['pant'],ProductA,belt,Spring,sneakers,BrandD,Red,Casual,982
+983,Male,36,middle-aged,Athletic,North,"['pant', 'shoe', 'jacket']",ProductC,necklace,Autumn,heels,BrandD,Black,Casual,983
+984,Other,56,middle-aged,Slim,North,"['jacket', 'pant', 'hat']",ProductD,watch,Autumn,boots,BrandA,Red,Casual,984
+985,Female,39,senior,Athletic,North,"['jacket', 'pant', 'hat']",ProductD,belt,Autumn,flats,BrandA,Blue,Elegant,985
+986,Female,32,senior,Slim,North,"['pant', 'shirt']",ProductB,necklace,Autumn,sandals,BrandA,Black,Casual,986
+987,Female,35,middle-aged,Slim,East,"['hat', 'pant']",ProductB,sunglasses,Summer,flats,BrandB,Red,Elegant,987
+988,Other,38,senior,Average,East,"['shoe', 'jacket', 'hat']",ProductC,watch,Summer,boots,BrandD,Red,Sporty,988
+989,Other,59,senior,Average,East,"['jacket', 'hat', 'shirt', 'pant', 'shoe']",ProductA,necklace,Autumn,heels,BrandB,Red,Formal,989
+990,Female,63,senior,Heavy,South,"['hat', 'pant']",ProductE,watch,Winter,sneakers,BrandB,Blue,Sporty,990
+991,Female,17,middle-aged,Heavy,South,"['shoe', 'hat', 'shirt', 'jacket']",ProductE,watch,Autumn,heels,BrandA,Green,Elegant,991
+992,Other,55,middle-aged,Athletic,East,"['pant', 'shoe', 'shirt', 'hat']",ProductE,belt,Summer,boots,BrandB,Blue,Casual,992
+993,Female,69,middle-aged,Heavy,South,['shoe'],ProductD,necklace,Winter,boots,BrandC,Blue,Sporty,993
+994,Other,34,senior,Heavy,North,"['shoe', 'shirt', 'pant', 'hat', 'jacket']",ProductA,belt,Autumn,flats,BrandB,Black,Elegant,994
+995,Other,54,senior,Heavy,North,['jacket'],ProductD,sunglasses,Summer,flats,BrandC,Blue,Formal,995
+996,Other,15,middle-aged,Slim,East,"['hat', 'shoe', 'jacket', 'shirt']",ProductB,bracelet,Summer,flats,BrandB,White,Formal,996
+997,Female,61,young,Average,South,"['hat', 'shirt', 'jacket', 'shoe']",ProductC,bracelet,Summer,heels,BrandA,Blue,Sporty,997
+998,Other,18,middle-aged,Average,West,"['pant', 'jacket', 'shoe']",ProductD,watch,Winter,heels,BrandC,Green,Casual,998
+999,Female,63,senior,Average,East,['pant'],ProductE,necklace,Spring,flats,BrandD,Black,Sporty,999
+1000,Female,18,middle-aged,Heavy,East,['shoe'],ProductD,bracelet,Autumn,heels,BrandD,Black,Formal,1000
