@@ -1,4 +1,4 @@
-# Fashion GenAI
+StyleSage: AI-Powered Fashion
 
 Welcome to **Fashion GenAI**! Revolutionize your wardrobe with our AI-powered fashion recommendation system. Whether you're looking for the perfect outfit for a specific occasion or just want to explore the latest trends, Fashion GenAI has got you covered.
 
