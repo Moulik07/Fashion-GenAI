@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion GenAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+</head>
+<body>
+    <header class="header">
+      <div class="logo">
+        <img src="static\logo.png" alt="Fashion GenAI Logo">
+        <p class="logo-text">Revolutionize your wardrobe with Fashion GenAI</p>
+    </div>       
+        <nav class="navigation">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href=trends.html>Trends</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <h1 class="welcome-title">Welcome to Fashion GenAI</h1>
+        <form id="outfitForm">
+            <div class="input-group">
+                <label for="user_id">Enter User ID</label>
+                <input type="text" id="user_id" name="user_id" class="input-field" placeholder="Your User ID" required>
+            </div>
+            <div class="input-group">
+                <label for="user_input">What kind of outfit are you looking for?</label>
+                <input type="text" id="user_input" name="user_input" class="input-field" placeholder="E.g., Casual, Formal, Trendy" required>
+            </div>
+            <div class="input-group">
+                <label for="occasion">What is the occasion?</label>
+                <input type="text" id="occasion" name="occasion" class="input-field" placeholder="E.g., Party, Meeting, Regular,  Outing, Beach" required>
+            </div>
+            <div class="input-group">
+                <label for="weather">What is the weather?</label>
+                <input type="text" id="weather" name="weather" class="input-field" placeholder="E.g., Sunny, Cloudy, Cool" required>
+            </div>
+            <div class="input-group">
+                <label for="budget">What is your budget?</label>
+                <input type="number" id="budget" name="budget" class="input-field" placeholder="Your Budget" required>
+            </div>
+            <button type="submit" class="submit-button">Find Outfit</button>
+        </form>
+        <div id="outfitResults" class="outfit-results"></div>
+        
+        <form id="feedbackForm" style="display: none;">
+          <h3>Feedback</h3>
+            <div class="input-group">
+                <label for="feedback_user_id">User ID:</label>
+                <input type="text" id="feedback_user_id" name="user_id" class="input-field" required>
+            </div>
+            <div class="input-group">
+                <label for="feedback_outfit_id">Outfit ID:</label>
+                <input type="text" id="feedback_outfit_id" name="outfit_id" class="input-field" required>
+            </div>
+            <div class="input-group">
+                <label for="feedback_text">Feedback:</label>
+                <textarea id="feedback_text" name="feedback" class="input-field" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit Feedback</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 Fashion GenAI. All rights reserved To Moulik Arora and Preksha Dadhania</p>
+    </footer>
+    <script>
+        // JavaScript code for handling form submission and displaying results
+        // This will be provided in the next step.
+    </script>
+</body>
+</html>

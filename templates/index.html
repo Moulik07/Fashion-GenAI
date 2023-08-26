@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="static\styles_idx.css" /> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles_idx.css') }}">
+    <!-- <img src="{{ url_for('static', filename='') }}" alt="Product 1"> -->
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="static\logo.png" alt="Fashion GenAI Logo">
+        <p class="logo-text">FlipkartDemo Model Prototype</p>
+    </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/form">Fashion_GenAI</a></li>
+          <!-- <li><button id="view-cart">View Cart</button></li> -->
+        </ul>
+      </nav>
+      <button id="view-cart">View Cart</button>
+    </header>
+    <h1><i>&nbsp;&nbsp;Shopping Cart</i></h1>
+    <main id="products">
+      <div class="product">
+        <img src="static\1.png" alt="Product 1" />
+        <h3>Product 1</h3>
+        <p>Price: ₹699</p>
+        <button class="add-to-cart" data-id="1">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\2.png" alt="Product 2" />
+        <h3>Product 2</h3>
+        <p>Price: ₹1799</p>
+        <button class="add-to-cart" data-id="2">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\3.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹761</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\4.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹1449</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\5.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹2099</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\6.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹1139</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\7.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹699</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\8.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹1224</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\9.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹1816</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\10.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹650</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\11.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹449</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\12.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹379</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\13.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹289</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\14.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹399</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\15.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹379</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="static\16.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹379</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="static\17.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹379</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="static\18.png" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>Price: ₹379</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+
+
+    </main>
+    <!-- <div id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+        <-- Cart items go here -->
+      </ul>
+      <button id="checkout">Checkout</button>
+    </div>
+    <div id="outfit-recommendations">
+      <!-- Outfit recommendations will be displayed here -->
+    </div>
+    <script src="static\script_idx.js"></script>
+  </body>
+</html>
