@@ -1,1 +1,179 @@
-hello
+body {
+  background: antiquewhite;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(120deg, #f06d9e, #6f8dd5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.outfit-results {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.outfit-results img {
+  width: auto;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.welcome-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.submit-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #ff4e4e;
+}
+
+.interactive-console {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.console-output {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.console-output p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+#outfitForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#outfitForm input[type="text"],
+#outfitForm input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#outfitForm button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#outfitForm button:hover {
+  background-color: #45a049;
+}
+
+.buy-now {
+  display: table;
+  background-color: #4CAF50;
+  /* text-decoration: none; */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.buy-now a{
+  text-decoration: none;
+  color: white;
+}
